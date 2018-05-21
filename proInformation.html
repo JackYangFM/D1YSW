@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" href="css/index-productList.css" />
+		<link rel="stylesheet" href="css/pagination.css" />
+		<link rel="stylesheet" href="css/proInformation.css" />
+		<script type="text/javascript" src="js/jquery-1.11.0.js" ></script>
+		<script type="text/javascript" src="js/jquery.page.js" ></script>
+	</head>
+	<body>
+			<!--****************************头部******************************-->
+		<div class="head head_nochange">
+			<div class="shead clear">
+				<p class="shead_left">您好，欢迎<a id="phone_number" href="javascript:void(0)"></a>来到D1购物<a id="quit" href="javascript:void(0)">退出</a></p>
+				<ul class="shead_right">
+					<li class="right_li" ><a href="javascript:void(0)">我的账户<img src="img/index/xsj.png"/></a>
+						<ul class="right_li_box hide" >
+							<li><a href="javascript:void(0)">我的订单</a></li>
+							<li><a href="javascript:void(0)">我的优惠券</a></li>
+							<li><a href="javascript:void(0)">我的积分</a></li>
+							<li><a href="javascript:void(0)">我的收藏</a></li>
+							<li><a href="javascript:void(0)">我的晒单</a></li>
+							<li><a href="javascript:void(0)">我的评论</a></li>
+						</ul>
+					</li>
+					<li><a href="javascript:void(0)">订单查询</a></li>
+					<li><a href="javascript:void(0)">积分换购</a></li>
+					<li><a href="javascript:void(0)">帮助中心</a></li>
+					<li><a href="javascript:void(0)">手机优尚</a></li>
+					<li><a href="javascript:void(0)">在线客服</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--*****************head改变*******************************-->
+		<div class="head head_change">
+			<div class="shead clear">
+				<p class="shead_left">您好，欢迎来到D1购物，请<a href="logIn.html">登录</a>或<a href="register.html">注册</a></p>
+				<ul class="shead_right">
+					<li class="right_li" id="right_li"><a href="javascript:void(0)">我的账户<img src="img/index/xsj.png"/></a>
+						<ul class="right_li_box hide" id="right_li_box">
+							<li><a href="javascript:void(0)">我的订单</a></li>
+							<li><a href="javascript:void(0)">我的优惠券</a></li>
+							<li><a href="javascript:void(0)">我的积分</a></li>
+							<li><a href="javascript:void(0)">我的收藏</a></li>
+							<li><a href="javascript:void(0)">我的晒单</a></li>
+							<li><a href="javascript:void(0)">我的评论</a></li>
+						</ul>
+					</li>
+					<li><a href="javascript:void(0)">订单查询</a></li>
+					<li><a href="javascript:void(0)">积分换购</a></li>
+					<li><a href="javascript:void(0)">帮助中心</a></li>
+					<li><a href="javascript:void(0)">手机优尚</a></li>
+					<li><a href="javascript:void(0)">在线客服</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--*******************logo**************************-->
+		<div class="logo clear">
+			<h2 class="logo_pic">
+				<a href="javascript:void(0)"></a>
+			</h2>
+			<div class="logo_link">
+				<div class="logo_search clear">
+					<input type="text" id="search" placeholder="请输入您要搜索的商品名称或编码"/>
+					<button id="search-btn">搜索</button>
+					<ul class="logo_search_ul">
+					</ul>
+				</div>
+				<p class="logo_link_hot"><i>热门搜索：</i><!--<a href="javascript:void(0)">魔兽</a><a href="javascript:void(0)">防晒</a><a href="javascript:void(0)">夏出游</a><a href="javascript:void(0)">度假风</a>--></p>
+			</div>
+			<span><img src="img/index/help.jpg"/></span>
+			<!--*********************购物车************************-->
+			<a class="logo_cart" href="cart.html">查看购物车</a>
+		</div>
+		<!--********************导航****************************-->
+		<div class="nav">
+			<ul class="nav_ul">
+				<li class="nav_ul_diff"><a class="diff_a" href="javascript:void(0)">全部商品</a>
+					<div class="nav_ul_div">
+						<div class="nav_ul_div_left">
+							<div class="nav_pro_list">
+								<h2>护肤品</h2>
+								<p><a href="javascript:void(0)">洁面</a><a href="javascript:void(0)">爽肤水</a><a href="javascript:void(0)">精华</a><a href="javascript:void(0)">乳液/面霜</a><a href="javascript:void(0)">眼霜</a><a href="javascript:void(0)">防晒隔离</a><a href="javascript:void(0)">唇部护理</a><a href="javascript:void(0)">面膜/面贴</a><a href="javascript:void(0)">黑头角质</a><a href="javascript:void(0)">护肤套装</a><a href="javascript:void(0)">卸妆</a><a href="javascript:void(0)">身体乳</a><a href="javascript:void(0)">美体塑身</a><a href="javascript:void(0)">脱毛</a><a href="javascript:void(0)">护手霜</a><a href="javascript:void(0)">男士护肤</a></p>
+							</div>
+							<div class="nav_pro_list">
+								<h2>彩妆香水</h2>
+								<p><a href="javascript:void(0)">隔离/妆前乳</a><a href="javascript:void(0)">BB霜</a><a href="javascript:void(0)">粉底</a><a href="javascript:void(0)">粉饼</a><a href="javascript:void(0)">睫毛膏</a><a href="javascript:void(0)">眼线</a><a href="javascript:void(0)">眉笔</a><a href="javascript:void(0)">眼影</a><a href="javascript:void(0)">口红/唇彩</a><a href="javascript:void(0)">彩妆套装</a><a href="javascript:void(0)">卸妆</a><a href="javascript:void(0)">美甲</a><a href="javascript:void(0)">遮瑕</a><a href="javascript:void(0)">腮红</a><a href="javascript:void(0)">彩妆工具</a><a href="javascript:void(0)">女士香水</a><a href="javascript:void(0)">男士香水</a></p>
+							</div>
+							<div class="nav_pro_list">
+								<h2>个性配饰</h2>
+								<p><a href="javascript:void(0)">项链</a><a href="javascript:void(0)">手链</a><a href="javascript:void(0)">耳饰</a><a href="javascript:void(0)">帽子</a><a href="javascript:void(0)">围巾</a><a href="javascript:void(0)">太阳眼镜</a><a href="javascript:void(0)">眼罩/口罩</a><a href="javascript:void(0)">袜子</a><a href="javascript:void(0)">手表</a><a href="javascript:void(0)">Zippo打火机</a><a href="javascript:void(0)">时尚女包</a><a href="javascript:void(0)">精品男包</a><a href="javascript:void(0)">12星座</a><a href="javascript:void(0)">925纯银</a></p>
+							</div>
+							<div class="nav_pro_list">
+								<h2>创意家居</h2>
+								<p><a href="javascript:void(0)">生活日用</a><a href="javascript:void(0)">生活小公具</a><a href="javascript:void(0)">创意收纳</a><a href="javascript:void(0)">厨具餐具</a><a href="javascript:void(0)">家纺布艺</a><a href="javascript:void(0)">家居装饰</a><a href="javascript:void(0)">防雾霾产品</a><a href="javascript:void(0)">家庭影院</a><a href="javascript:void(0)">营养早餐</a><a href="javascript:void(0)">宠物用品</a></p>
+							</div>
+							<div class="nav_pro_list">
+								<h2>数码宝贝</h2>
+								<p><a href="javascript:void(0)">创意数码</a><a href="javascript:void(0)">手机伴侣</a><a href="javascript:void(0)">蓝牙音箱耳机</a><a href="javascript:void(0)">家庭影院</a><a href="javascript:void(0)">创意插座</a></p>
+							</div>
+							<div class="nav_pro_list">
+								<h2>时尚热点</h2>
+								<p><a href="javascript:void(0)">自拍神器</a><a href="javascript:void(0)">创意数码</a><a href="javascript:void(0)">手机壳</a><a href="javascript:void(0)">清仓</a><a href="javascript:void(0)">太阳的后羿</a><a href="javascript:void(0)">收纳用品</a><a href="javascript:void(0)">投影电视</a><a href="javascript:void(0)">防雾霾</a><a href="javascript:void(0)">营养早餐</a><a href="javascript:void(0)">防晒</a><a href="javascript:void(0)">脱毛止汗</a><a href="javascript:void(0)">美白</a><a href="javascript:void(0)">控油</a><a href="javascript:void(0)">保湿补水</a></p>
+							</div>
+						</div>
+						<div class="nav_ul_div_right">
+							<div class="nav_pro_list">
+								<h2>热卖品牌</h2>
+								<p><a href="javascript:void(0)">兰蔻</a><a href="javascript:void(0)">玫琳凯</a><a href="javascript:void(0)">玉兰油</a><a href="javascript:void(0)">雅诗兰黛</a><a href="javascript:void(0)">倩碧</a><a href="javascript:void(0)">迪奥</a><a href="javascript:void(0)">碧欧泉</a><a href="javascript:void(0)">欧莱雅</a><a href="javascript:void(0)">兰芝</a><a href="javascript:void(0)">高丝</a><a href="javascript:void(0)">薇姿</a><a href="javascript:void(0)">佰草集</a><a href="javascript:void(0)">资生堂</a><a href="javascript:void(0)">DHC</a><a href="javascript:void(0)">阿迪达斯</a><a href="javascript:void(0)">美宝莲</a><a href="javascript:void(0)">雅芳</a><a href="javascript:void(0)">雅漾</a><a href="javascript:void(0)">可贝尔</a><a href="javascript:void(0)">YOUSOO</a><a href="javascript:void(0)">FEEL MIND</a><a href="javascript:void(0)">诗若漫</a><a href="javascript:void(0)">NH户外用品&nbsp;</a><a href="javascript:void(0)">若态</a><a href="javascript:void(0)">阀匠</a><a href="javascript:void(0)">3M</a><a href="javascript:void(0)">酷部落</a><a href="javascript:void(0)">艾米尼</a><a href="javascript:void(0)">迪思拜耳</a><a href="javascript:void(0)">天顺通</a><a href="javascript:void(0)">轰天炮</a></p>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li><a href="javascript:void(0)">首页</a></li>
+				<li><a href="javascript:void(0)">化妆品</a></li>
+				<li><a href="javascript:void(0)">创意家居</a></li>
+				<li><a href="javascript:void(0)">数码宝贝儿</a></li>
+				<li><a href="javascript:void(0)">个性配饰</a></li>
+				<li><a href="javascript:void(0)">清仓专区</a></li>
+			</ul>
+		</div>
+<!--*********************版心区域**************************-->
+	<div class="pro-container">
+		<div class="container_top">
+			<div class="top_left">
+				<span>D1优尚网</span>
+				<div class="small-box" id="smallBox">
+					<!--*****放大镜*****-->
+					<div class="tool" id="tool"></div>
+					<!--*****图片*****-->
+					<a class="l-jing1" href="javascript:void(0)"><img  id="proImg" src="img/proinformation/l-jing1.jpg"/></a>
+					<a href="javascript:void(0)"><img src="img/proinformation/l-jing2.jpg"/></a>
+					<a href="javascript:void(0)"><img src="img/proinformation/l-jing3.jpg"/></a>
+					<b></b>
+				</div>
+				<ul class="pic-list">
+					<li><a href="javascript:void(0)"><img src="img/proinformation/x-jing1.jpg"/></a></li>
+					<li><a href="javascript:void(0)"><img src="img/proinformation/x-jing2.jpg"/></a></li>
+					<li><a href="javascript:void(0)"><img src="img/proinformation/x-jing3.jpg"/></a></li>
+					
+				</ul>
+				<div class="big_tool" id="bigBox">
+					<img class="jing1 bigImg" src="img/proinformation/jing1.jpg" />
+					<img class="bigImg" src="img/proinformation/jing2.jpg" />
+					<img class="bigImg" src="img/proinformation/jing3.jpg" />
+				</div>
+			</div>
+			<div class="top_right">
+				<h2 id="proName">MUID可充电式LED化妆台镜台灯（化妆镜、台灯、储物三合一）爆款下单后72小时发货</h2>
+				<span class="r_explian">化妆镜周边贴心设计外圈灯光，告别光线暗淡，呈现完美妆容</span>
+				<div class="pro-price">
+					<span class="d1_bg">D1价</span>
+					<div>
+						<a href="javascript:void(0)">¥<em id="proPrice">179.00</em></a>
+						<i>4.5折</i>
+						<span>市场价：<del>¥399.00</del></span>
+					</div>
+				</div>
+				<div class="gray_price">
+					<a href="javascript:void(0)">VIP价：￥177.00</a>
+					<a href="javascript:void(0)">白金价：￥175.00</a>
+				</div>
+				<span class="pro-color">商品编码：<em id="proId">01206904</em></span>
+				<span class="pro-color">由<a href="javascript:void(0)">D1优尚网</a>发货，开发票并提供售后服务</span>
+				<span class="pro-color pro-cdiff">顾客评分：<a href="javascript:void(0)">(已有15人评价)</a></span>
+				<span class="pro-color">选择规格：<i id="proNormas">未选择</i></span>
+				<div class="standard">
+					<a href="javascript:void(0)">雅白色</a>
+					<a href="javascript:void(0)">柔粉色</a>
+					<a href="javascript:void(0)">薄荷绿</a>
+				</div>
+				<div class="purchase">
+					<span>购买数量：</span>
+					<a  class="bgj-same" href="javascript:void(0)"></a>
+					<input type="text" class="buy_num" id="proNum" value="1"/>
+					<a class="bgj-diff" href="javascript:void(0)"></a>
+				</div>
+				<a class="add_pro" href="javascript:void(0)"></a>
+				<a class="collect" href="javascript:void(0)"></a>	
+			</div>
+		</div>
+		<div class="container_bottom">
+			<div class="bottom_left">
+				<div class="see">
+					<h2>看了又看</h2>
+					<!--<dl>
+						<dt><img src="img/proinformation/seemao.png"/></dt>
+						<dd>
+							<p><a href="javascript:void(0)"></a></p>
+							<a class="red_font" href="javascript:void(0)"></a>
+							<del></del>
+						</dd>
+					</dl>-->
+				</div>
+				<div class="recently">
+					<h2>最近浏览的商品</h2>
+				</div>
+			</div>
+			<div class="bottom_right">
+				<ul class="bottom_nav">
+					<li class="active"><a href="javascript:void(0)">商品信息</a></li>
+					<li><a href="javascript:void(0)">顾客评论</a></li>
+					<li><a href="javascript:void(0)">商品问答</a></li>
+					<li><a href="javascript:void(0)">售后及配送</a></li>
+				</ul>
+				<div class="tab">
+					<div class="tab_one cut">
+					
+						<span>商品详情</span>
+						<h2>创意化妆镜/台灯/收纳  三合一</h2>
+						<p>化妆镜灯外圈灯光可模拟自然光，让你在化妆时告别光线陷阱，避免因环境改变或室内光线不同导致的化妆色差，为你呈现完美的妆容！
+</p>
+						<p>【特点】：<br />
+1、灯光亮度无极调节；<br />
+2、化妆镜周边贴心设计外圈灯光，告别光线暗淡，呈现完美妆容；；<br />
+3、灯头360度旋转；；<br />
+4、内置锂电池，多组色温灯光。</p>
+<p>【功能】；<br />
+1、台灯才有触控开关，短按即可控制开关，长按调节灯光强弱。<br />
+2、产品特有镜面灯环绕镜子外圈，轻触开启使用。<br />
+3、产品内置1200mah聚合物锂电池。；<br />
+4、台灯与支撑杆连接处采用灵活设计旋转轴，可根据需要调节适合角度。；<br />
+5、底座置物盘设计，平稳且拥有置物功能。</p>
+<img src="img/proinformation/show.jpg" />
+						
+					</div>
+					<div class="tab_two  cut"></div>
+					<div class="tab_three  cut">
+						<p class="warm_tip">温馨提示：因厂家更改商品包装、产地或者更换随机附件等没有任何提前通知，且每位咨询者购买情况、提问时间等不同，为此以下回复仅对提问者3天内有效，其他网友仅供参考！若由此给您带来不便请多多谅解，谢谢！</p>
+						<p class="publish">发表咨询 </p>
+						<p class="statement">声明：您可在购买前对产品包装、颜色、运输、库存等方面进行咨询，我们有专人进行回复！因厂家随时会更改一些产品的包装、颜色、
+产地等参数，所以该回复仅在当时对提问者有效，其他网友仅供参考！咨询回复的工作时间为：周一至周日：9:00至21:00，请耐心等待工作人员的回复。 </p>
+						<div class="consult">
+							<h4>咨询类型</h4>
+							<input type="radio" name="type" /><span>商品咨询</span>
+							<input type="radio" name="type" /><span>库存及配送</span>
+							<input type="radio" name="type" /><span>支付问题</span>
+							<input type="radio" name="type" /><span>发票及保修 </span>
+							<input type="radio" name="type" /><span>促销及赠品</span>
+						</div>
+						<h4>咨询内容</h4>
+						<textarea class="text"></textarea>
+						<a class="post" href="javascript:void(0)"></a>
+					</div>
+					<div class="tab_four  cut">
+						<p>因厂商会在没有任何提前通知的情况下更改商品包装、产地或者一些附件，因此您收到的商品有可能与我们提供的图片、附件说明不完全一致,请您以收到商品的包装清单为准。D1可确保为原装正品。同时我们会尽量做到及时更新,若由此给您带来不便敬请谅解！</p>
+						<p>服    务：  此商品由   <a href="javascript:void(0)">D1优尚网</a>   负责发货，开具发票及售后服务<br />
+
+发    货：  从   广东省广州市     发出<br />
+
+配    送：  默认  圆通快递    或    EMS<br />
+
+退换货地址：  请按<发货单>上的退换货地址寄回。</p>
+						<p>    D1保证所售出的商品都是通过正规渠道配货发货，您享有与其它途径购买的商品同样的服务。如果您所购买的产品存在质量问题，在未经使用的情况下，您可以享受 30 天退换货的服务。<br />
+        申请退换货可以自助操作：登录官网  <a href="">订单查询</a>  ，点击 退换货申请，按步骤操作即可。如需人工帮助，请咨询在线客服： 在线客服
+ 以下情况不予办理退换货：<br />
+（1）任何非由本公司出售的商品，不予办理退换货；<br />
+（2）任何已使用商品，不予办理退换货，但有质量问题除外；<br />
+（3）密封产品原包装打开，非质量问题不予退换；<br />
+（4）因人为疏忽或使用不当而导致的商品损坏不予退换；<br />
+（5）任何事先注明不在退换货范围的特殊商品，不予退换； </p>
+					</div>
+				</div>
+				<div class="remark">
+					<h3>顾客评论</h3>
+					<span class="buy_pass">购买过的顾客评分 |<i></i></span>
+					<div class="all_assess">
+						<!--<div class="assess">
+							<dl class="assess_left">
+								<dt><img src="img/proinformation/hyimg.jpg" /></dt>
+								<dd>
+									<a href="javascript:void(0)">**学生桂晨曦</a>
+									<a href="javascript:void(0)">普通会员</a>
+								</dd>
+							</dl>
+							<div class="access_right">
+								<i></i>
+								<div class="detailed">
+									<span>评分：<b></b><em>2016-06-28</em></span>
+									<p>包装很好，女朋友很喜欢，很不错很有创意的小东西。</p>
+								</div>
+							</div>
+						</div>-->
+					</div>
+					<div class="pagination" id="pagination"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<!--********************各种信息****************************-->
+		<div class="message">
+			<div class="product">
+				<p class="p1"></p>
+				<p class="p2"></p>
+				<p class="p3"></p>
+				<p class="p4"></p>
+			</div>
+			<div class="information">
+				<ul>
+					<li class="bigSize">购物帮助</li>
+					<li><a href="javascript:void(0)">购物的基本问题</a></li>
+					<li><a href="javascript:void(0)">如何使用优惠券</a></li>
+					<li><a href="javascript:void(0)">如何累计并消费积分</a></li>
+					<li><a href="javascript:void(0)">第一次购物体验</a></li>
+				</ul>
+				<ul>
+					<li class="bigSize">支付方式</li>
+					<li><a href="javascript:void(0)">货到付款</a></li>
+					<li><a href="javascript:void(0)">银行电汇</a></li>
+					<li><a href="javascript:void(0)">网银支付</a></li>
+					<li><a href="javascript:void(0)">邮局付款</a></li>
+				</ul>
+				<ul>
+					<li class="bigSize">配送方式及费用</li>
+					<li class="red"><a href="javascript:void(0)">物流信息查询</a></li>
+					<li><a href="javascript:void(0)">配送范围</a></li>
+					<li><a href="javascript:void(0)">配送方式</a></li>
+					<li><a href="javascript:void(0)">运费说明</a></li>
+				</ul>
+				<ul>
+					<li class="bigSize">售后服务</li>
+					<li><a href="javascript:void(0)">D1品质保证原则</a></li>
+					<li><a href="javascript:void(0)">D1退货总原则</a></li>
+					<li><a href="javascript:void(0)">D1退换货及地址流程</a></li>
+					<li><a href="javascript:void(0)">D1退换货特殊说明</a></li>
+				</ul>
+				<ul>
+					<li class="bigSize">VIP特享政策</li>
+					<li><a href="javascript:void(0)">VIP会员的优惠及服务</a></li>
+					<li><a href="javascript:void(0)">如何获得和保持VIP</a></li>
+					<li><a href="javascript:void(0)">如何升级为白金VIP</a></li>
+					<li><a href="javascript:void(0)">白金VIP的优惠及服务</a></li>
+				</ul>
+				<p class="ewm"></p>
+			</div>
+		</div>
+		<!--bottom 底部-->
+		<div class="bottom">
+			<p class="p5">
+				<a class="noback" href="javascript:void(0)">联系我们</a>
+				<a href="javascript:void(0)">关于我们</a>
+				<a href="javascript:void(0)">配送范围</a>
+				<a href="javascript:void(0)">如何付款</a>
+				<a href="javascript:void(0)">品牌合作</a>
+				<a href="javascript:void(0)">友情链接</a>
+				<a href="javascript:void(0)">全珠创意购</a>
+			</p>
+			<p class="p6">
+				<a class="nomartop" href="javascript:void(0)"><img src="img/register/wei_349.gif"/></a>
+				<a href="javascript:void(0)"><img src="img/register/cx.png" /></a>
+				<a href="javascript:void(0)"><img src="img/register/ceca.gif" /></a>
+				<a href="javascript:void(0)"><img src="img/register/beca.gif" /></a>
+				<a href="javascript:void(0)"><img src="img/register/top100_logo.gif"/></a>
+				<a href="javascript:void(0)"><img src="img/register/redlogo.gif"/></a>
+			</p>
+			<p class="p7">京ICP证030072号  京公网安备：110108905029   www.D1.com.cn Copyright 2002-2016 D1优尚网 版权所有</p>
+		</div>
+		<!--****************阴影模块***********************-->
+		<div class="black"></div>
+		<div class="tip_div">
+			<span class="tip_title">提示：<a class="tip_hide" href="javascript:void(0)">×</a></span>
+			<p><i></i>您好！请选择规格！</p>
+			<a class="yes" href="javascript:void(0)">确定</a>
+		</div>
+		<script src="js/index-productList.js"></script>
+		<script type="text/javascript" src="js/proinformation.js" ></script>
+	</body>
+</html>
