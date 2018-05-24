@@ -1,77 +1,308 @@
 {
-"container":[{"mysrc":"http://localhost:8000/d1ysw/img/index/container1.jpg","info":"airware隐形口罩鼻塞","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/container2.jpg","info":"实木便携式空气净化器","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/container3.jpg","info":"大鱼海棠鲲公仔钥匙扣","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/container4.jpg","info":"无盖可密封保冷扭扭杯","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/container5.jpg","info":"MUID化妆镜台灯","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/container6.jpg","info":"专利不会淋湿折叠伞","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/container7.jpg","info":"极控者R3智能指环","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/container8.jpg","info":"零食、饮料隔离杯子","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/container9.jpg","info":"澳大利亚变色保冷杯","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/container9-1.jpg","info":"正版魔兽手机指环支架","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/container9-2.jpg","info":"意大利八分音符滤勺","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/container9-3.jpg","info":"为白领打造的电热餐盒","price":"¥49"}
-],
-"living":[{"mysrc":"http://localhost:8000/d1ysw/img/index/living1.jpg","info":"MUID重力感应开关灯","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/living2.jpg","info":"夏威夷仲夏立体墙贴","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/living3.jpg","info":"创意带翻盖洗菜篮","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/living4.jpg","info":"蘑菇空气净化触摸台灯","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/living5.jpg","info":"地中海风格小相框","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/living6.jpg","info":"木质小黑板花架","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/living7.jpg","info":"人体光感应小夜灯","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/living8.jpg","info":"尼斯湖水怪勺","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/living9.jpg","info":"可变色充电小夜灯","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/living9-1.jpg","info":"自制沙冰杯","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/living9-2.jpg","info":"USB充电水果风扇","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/living9-3.jpg","info":"亿丰太阳能户外灭蚊灯","price":"¥49"}
-],
-"digtal":[{"mysrc":"http://localhost:8000/d1ysw/img/index/digtal1.jpg","info":"大鱼海棠超薄移动电源","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/digtal2.jpg","info":"三合一卡通手机套","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/digtal3.jpg","info":"开瓶器数据充电线","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/digtal4.jpg","info":"良悦3d打印笔","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/digtal5.jpg","info":"彩灯魔方蓝牙音箱","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/digtal6.jpg","info":"自拍亮度可调补光灯","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/digtal7.jpg","info":"正版魔兽世界充电宝","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/digtal8.jpg","info":"米狗M2防水相机","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/digtal9.jpg","info":"智恩智能手表","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/digtal9-1.jpg","info":"3D vr智能魔镜","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/digtal9-2.jpg","info":"最小的投影仪！","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/digtal9-3.jpg","info":"MIPOW手机充电器","price":"¥49"}
-],
-"makeup":[{"mysrc":"http://localhost:8000/d1ysw/img/index/makeup1.jpg","info":"雅漾清爽倍护防晒乳","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/makeup2.jpg","info":"金稻纳米补水喷雾仪","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/makeup3.jpg","info":"悦木之源","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/makeup4.jpg","info":"美宝莲好气色轻唇膏","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/makeup5.jpg","info":"妮维雅水感防晒乳霜","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/makeup6.jpg","info":"韩国可莱丝水库面膜","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/makeup7.jpg","info":"韩国自然乐园芦荟胶","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/makeup8.jpg","info":"欧莱雅男士火山岩洁面膏","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/makeup9.jpg","info":"兰芝双色立体唇膏","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/makeup9-1.jpg","info":"碧柔水精华防晒乳","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/makeup9-2.jpg","info":"玉兰油多效维护霜","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/makeup9-3.jpg","info":"雅漾舒护活泉水喷雾","price":"¥49"}
-],
-"ornament":[{"mysrc":"http://localhost:8000/d1ysw/img/index/ornament1.jpg","info":"大鱼海棠单肩帆布包","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/ornament2.jpg","info":"大鱼海棠鲲形象口罩","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/ornament3.jpg","info":"瑞士军刀电脑双肩包","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/ornament4.jpg","info":"正版魔兽阵营运动套装","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/ornament5.jpg","info":"迪士尼镶水钻手表","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/ornament6.jpg","info":"迪士尼米奇手链","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/ornament7.jpg","info":"正版迪士尼钢铁侠手表","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/ornament8.jpg","info":"韩版女式防晒大檐草帽","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/ornament9.jpg","info":"时尚男士防晒渔夫帽","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/ornament9-1.jpg","info":"十二星座专属戒指","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/ornament9-2.jpg","info":"S925纯银大嘴猴项链","price":"¥49"},
-{"mysrc":"http://localhost:8000/d1ysw/img/index/ornament9-3.jpg","info":"王子与公主情侣镀银对戒","price":"¥49"}
-]
+    "container": [{
+            "mysrc": "http://localhost:8000/d1ysw/img/index/container1.jpg",
+            "info": "airware隐形口罩鼻塞",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/container2.jpg",
+            "info": "实木便携式空气净化器",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/container3.jpg",
+            "info": "大鱼海棠鲲公仔钥匙扣",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/container4.jpg",
+            "info": "无盖可密封保冷扭扭杯",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/container5.jpg",
+            "info": "MUID化妆镜台灯",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/container6.jpg",
+            "info": "专利不会淋湿折叠伞",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/container7.jpg",
+            "info": "极控者R3智能指环",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/container8.jpg",
+            "info": "零食、饮料隔离杯子",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/container9.jpg",
+            "info": "澳大利亚变色保冷杯",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/container9-1.jpg",
+            "info": "正版魔兽手机指环支架",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/container9-2.jpg",
+            "info": "意大利八分音符滤勺",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/container9-3.jpg",
+            "info": "为白领打造的电热餐盒",
+            "price": "¥49"
+        }
+    ],
+    "living": [{
+            "mysrc": "http://localhost:8000/d1ysw/img/index/living1.jpg",
+            "info": "MUID重力感应开关灯",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/living2.jpg",
+            "info": "夏威夷仲夏立体墙贴",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/living3.jpg",
+            "info": "创意带翻盖洗菜篮",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/living4.jpg",
+            "info": "蘑菇空气净化触摸台灯",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/living5.jpg",
+            "info": "地中海风格小相框",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/living6.jpg",
+            "info": "木质小黑板花架",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/living7.jpg",
+            "info": "人体光感应小夜灯",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/living8.jpg",
+            "info": "尼斯湖水怪勺",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/living9.jpg",
+            "info": "可变色充电小夜灯",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/living9-1.jpg",
+            "info": "自制沙冰杯",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/living9-2.jpg",
+            "info": "USB充电水果风扇",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/living9-3.jpg",
+            "info": "亿丰太阳能户外灭蚊灯",
+            "price": "¥49"
+        }
+    ],
+    "digtal": [{
+            "mysrc": "http://localhost:8000/d1ysw/img/index/digtal1.jpg",
+            "info": "大鱼海棠超薄移动电源",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/digtal2.jpg",
+            "info": "三合一卡通手机套",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/digtal3.jpg",
+            "info": "开瓶器数据充电线",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/digtal4.jpg",
+            "info": "良悦3d打印笔",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/digtal5.jpg",
+            "info": "彩灯魔方蓝牙音箱",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/digtal6.jpg",
+            "info": "自拍亮度可调补光灯",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/digtal7.jpg",
+            "info": "正版魔兽世界充电宝",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/digtal8.jpg",
+            "info": "米狗M2防水相机",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/digtal9.jpg",
+            "info": "智恩智能手表",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/digtal9-1.jpg",
+            "info": "3D vr智能魔镜",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/digtal9-2.jpg",
+            "info": "最小的投影仪！",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/digtal9-3.jpg",
+            "info": "MIPOW手机充电器",
+            "price": "¥49"
+        }
+    ],
+    "makeup": [{
+            "mysrc": "http://localhost:8000/d1ysw/img/index/makeup1.jpg",
+            "info": "雅漾清爽倍护防晒乳",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/makeup2.jpg",
+            "info": "金稻纳米补水喷雾仪",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/makeup3.jpg",
+            "info": "悦木之源",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/makeup4.jpg",
+            "info": "美宝莲好气色轻唇膏",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/makeup5.jpg",
+            "info": "妮维雅水感防晒乳霜",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/makeup6.jpg",
+            "info": "韩国可莱丝水库面膜",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/makeup7.jpg",
+            "info": "韩国自然乐园芦荟胶",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/makeup8.jpg",
+            "info": "欧莱雅男士火山岩洁面膏",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/makeup9.jpg",
+            "info": "兰芝双色立体唇膏",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/makeup9-1.jpg",
+            "info": "碧柔水精华防晒乳",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/makeup9-2.jpg",
+            "info": "玉兰油多效维护霜",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/makeup9-3.jpg",
+            "info": "雅漾舒护活泉水喷雾",
+            "price": "¥49"
+        }
+    ],
+    "ornament": [{
+            "mysrc": "http://localhost:8000/d1ysw/img/index/ornament1.jpg",
+            "info": "大鱼海棠单肩帆布包",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/ornament2.jpg",
+            "info": "大鱼海棠鲲形象口罩",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/ornament3.jpg",
+            "info": "瑞士军刀电脑双肩包",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/ornament4.jpg",
+            "info": "正版魔兽阵营运动套装",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/ornament5.jpg",
+            "info": "迪士尼镶水钻手表",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/ornament6.jpg",
+            "info": "迪士尼米奇手链",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/ornament7.jpg",
+            "info": "正版迪士尼钢铁侠手表",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/ornament8.jpg",
+            "info": "韩版女式防晒大檐草帽",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/ornament9.jpg",
+            "info": "时尚男士防晒渔夫帽",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/ornament9-1.jpg",
+            "info": "十二星座专属戒指",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/ornament9-2.jpg",
+            "info": "S925纯银大嘴猴项链",
+            "price": "¥49"
+        },
+        {
+            "mysrc": "http://localhost:8000/d1ysw/img/index/ornament9-3.jpg",
+            "info": "王子与公主情侣镀银对戒",
+            "price": "¥49"
+        }
+    ]
 
 }
-
-
-
-
-
-
-
-
-

@@ -1,206 +1,449 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title></title>
-		<link rel="stylesheet" href="css/index-productList.css" />
-		<link rel="stylesheet" href="css/public.css" />
-		<link rel="stylesheet" href="css/active.css" />
-		
-	</head>
-	<body>
-			<!--****************************头部******************************-->
-		<div class="head head_nochange">
-			<div class="shead clear">
-				<p class="shead_left">您好，欢迎<a id="phone_number" href="javascript:void(0)"></a>来到D1购物<a id="quit" href="javascript:void(0)">退出</a></p>
-				<ul class="shead_right">
-					<li class="right_li" id="right_li"><a href="javascript:void(0)">我的账户<img src="img/index/xsj.png"/></a>
-						<ul class="right_li_box hide" id="right_li_box">
-							<li><a href="javascript:void(0)">我的订单</a></li>
-							<li><a href="javascript:void(0)">我的优惠券</a></li>
-							<li><a href="javascript:void(0)">我的积分</a></li>
-							<li><a href="javascript:void(0)">我的收藏</a></li>
-							<li><a href="javascript:void(0)">我的晒单</a></li>
-							<li><a href="javascript:void(0)">我的评论</a></li>
-						</ul>
-					</li>
-					<li><a href="javascript:void(0)">订单查询</a></li>
-					<li><a href="javascript:void(0)">积分换购</a></li>
-					<li><a href="javascript:void(0)">帮助中心</a></li>
-					<li><a href="javascript:void(0)">手机优尚</a></li>
-					<li><a href="javascript:void(0)">在线客服</a></li>
-				</ul>
-			</div>
-		</div>
-		<!--*****************head改变*******************************-->
-		<div class="head head_change">
-			<div class="shead clear">
-				<p class="shead_left">您好，欢迎来到D1购物，请<a href="logIn.html">登录</a>或<a href="register.html">注册</a></p>
-				<ul class="shead_right">
-					<li class="right_li" id="right_li"><a href="javascript:void(0)">我的账户<img src="img/index/xsj.png"/></a>
-						<ul class="right_li_box hide" id="right_li_box">
-							<li><a href="javascript:void(0)">我的订单</a></li>
-							<li><a href="javascript:void(0)">我的优惠券</a></li>
-							<li><a href="javascript:void(0)">我的积分</a></li>
-							<li><a href="javascript:void(0)">我的收藏</a></li>
-							<li><a href="javascript:void(0)">我的晒单</a></li>
-							<li><a href="javascript:void(0)">我的评论</a></li>
-						</ul>
-					</li>
-					<li><a href="javascript:void(0)">订单查询</a></li>
-					<li><a href="javascript:void(0)">积分换购</a></li>
-					<li><a href="javascript:void(0)">帮助中心</a></li>
-					<li><a href="javascript:void(0)">手机优尚</a></li>
-					<li><a href="javascript:void(0)">在线客服</a></li>
-				</ul>
-			</div>
-		</div>
-		<!--*******************logo**************************-->
-		<div class="logo clear">
-			<h2 class="logo_pic">
-				<a href="javascript:void(0)"></a>
-			</h2>
-			<div class="logo_link">
-				<div class="logo_search clear">
-					<input type="text" id="search" placeholder="请输入您要搜索的商品名称或编码"/>
-					<button id="search-btn">搜索</button>
-					<ul class="logo_search_ul">
+
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="css/index-productList.css" />
+	<link rel="stylesheet" href="css/public.css" />
+	<link rel="stylesheet" href="css/active.css" />
+
+</head>
+
+<body>
+	<!--****************************头部******************************-->
+	<div class="head head_nochange">
+		<div class="shead clear">
+			<p class="shead_left">您好，欢迎
+				<a id="phone_number" href="javascript:void(0)"></a>来到D1购物
+				<a id="quit" href="javascript:void(0)">退出</a>
+			</p>
+			<ul class="shead_right">
+				<li class="right_li" id="right_li">
+					<a href="javascript:void(0)">我的账户
+						<img src="img/index/xsj.png" />
+					</a>
+					<ul class="right_li_box hide" id="right_li_box">
+						<li>
+							<a href="javascript:void(0)">我的订单</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">我的优惠券</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">我的积分</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">我的收藏</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">我的晒单</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">我的评论</a>
+						</li>
 					</ul>
-				</div>
-				<p class="logo_link_hot"><i>热门搜索：</i><!--<a href="javascript:void(0)">魔兽</a><a href="javascript:void(0)">防晒</a><a href="javascript:void(0)">夏出游</a><a href="javascript:void(0)">度假风</a>--></p>
-			</div>
-			<span><img src="img/index/help.jpg"/></span>
-			<!--*********************购物车************************-->
-			<a class="logo_cart" href="cart.html">查看购物车</a>
-		</div>
-		<!--********************导航****************************-->
-		<div class="nav">
-			<ul class="nav_ul">
-				<li class="nav_ul_diff"><a class="diff_a" href="javascript:void(0)">全部商品</a>
-					<div class="nav_ul_div">
-						<div class="nav_ul_div_left">
-							<div class="nav_pro_list">
-								<h2>护肤品</h2>
-								<p><a href="javascript:void(0)">洁面</a><a href="javascript:void(0)">爽肤水</a><a href="javascript:void(0)">精华</a><a href="javascript:void(0)">乳液/面霜</a><a href="javascript:void(0)">眼霜</a><a href="javascript:void(0)">防晒隔离</a><a href="javascript:void(0)">唇部护理</a><a href="javascript:void(0)">面膜/面贴</a><a href="javascript:void(0)">黑头角质</a><a href="javascript:void(0)">护肤套装</a><a href="javascript:void(0)">卸妆</a><a href="javascript:void(0)">身体乳</a><a href="javascript:void(0)">美体塑身</a><a href="javascript:void(0)">脱毛</a><a href="javascript:void(0)">护手霜</a><a href="javascript:void(0)">男士护肤</a></p>
-							</div>
-							<div class="nav_pro_list">
-								<h2>彩妆香水</h2>
-								<p><a href="javascript:void(0)">隔离/妆前乳</a><a href="javascript:void(0)">BB霜</a><a href="javascript:void(0)">粉底</a><a href="javascript:void(0)">粉饼</a><a href="javascript:void(0)">睫毛膏</a><a href="javascript:void(0)">眼线</a><a href="javascript:void(0)">眉笔</a><a href="javascript:void(0)">眼影</a><a href="javascript:void(0)">口红/唇彩</a><a href="javascript:void(0)">彩妆套装</a><a href="javascript:void(0)">卸妆</a><a href="javascript:void(0)">美甲</a><a href="javascript:void(0)">遮瑕</a><a href="javascript:void(0)">腮红</a><a href="javascript:void(0)">彩妆工具</a><a href="javascript:void(0)">女士香水</a><a href="javascript:void(0)">男士香水</a></p>
-							</div>
-							<div class="nav_pro_list">
-								<h2>个性配饰</h2>
-								<p><a href="javascript:void(0)">项链</a><a href="javascript:void(0)">手链</a><a href="javascript:void(0)">耳饰</a><a href="javascript:void(0)">帽子</a><a href="javascript:void(0)">围巾</a><a href="javascript:void(0)">太阳眼镜</a><a href="javascript:void(0)">眼罩/口罩</a><a href="javascript:void(0)">袜子</a><a href="javascript:void(0)">手表</a><a href="javascript:void(0)">Zippo打火机</a><a href="javascript:void(0)">时尚女包</a><a href="javascript:void(0)">精品男包</a><a href="javascript:void(0)">12星座</a><a href="javascript:void(0)">925纯银</a></p>
-							</div>
-							<div class="nav_pro_list">
-								<h2>创意家居</h2>
-								<p><a href="javascript:void(0)">生活日用</a><a href="javascript:void(0)">生活小公具</a><a href="javascript:void(0)">创意收纳</a><a href="javascript:void(0)">厨具餐具</a><a href="javascript:void(0)">家纺布艺</a><a href="javascript:void(0)">家居装饰</a><a href="javascript:void(0)">防雾霾产品</a><a href="javascript:void(0)">家庭影院</a><a href="javascript:void(0)">营养早餐</a><a href="javascript:void(0)">宠物用品</a></p>
-							</div>
-							<div class="nav_pro_list">
-								<h2>数码宝贝</h2>
-								<p><a href="javascript:void(0)">创意数码</a><a href="javascript:void(0)">手机伴侣</a><a href="javascript:void(0)">蓝牙音箱耳机</a><a href="javascript:void(0)">家庭影院</a><a href="javascript:void(0)">创意插座</a></p>
-							</div>
-							<div class="nav_pro_list">
-								<h2>时尚热点</h2>
-								<p><a href="javascript:void(0)">自拍神器</a><a href="javascript:void(0)">创意数码</a><a href="javascript:void(0)">手机壳</a><a href="javascript:void(0)">清仓</a><a href="javascript:void(0)">太阳的后羿</a><a href="javascript:void(0)">收纳用品</a><a href="javascript:void(0)">投影电视</a><a href="javascript:void(0)">防雾霾</a><a href="javascript:void(0)">营养早餐</a><a href="javascript:void(0)">防晒</a><a href="javascript:void(0)">脱毛止汗</a><a href="javascript:void(0)">美白</a><a href="javascript:void(0)">控油</a><a href="javascript:void(0)">保湿补水</a></p>
-							</div>
-						</div>
-						<div class="nav_ul_div_right">
-							<div class="nav_pro_list">
-								<h2>热卖品牌</h2>
-								<p><a href="javascript:void(0)">兰蔻</a><a href="javascript:void(0)">玫琳凯</a><a href="javascript:void(0)">玉兰油</a><a href="javascript:void(0)">雅诗兰黛</a><a href="javascript:void(0)">倩碧</a><a href="javascript:void(0)">迪奥</a><a href="javascript:void(0)">碧欧泉</a><a href="javascript:void(0)">欧莱雅</a><a href="javascript:void(0)">兰芝</a><a href="javascript:void(0)">高丝</a><a href="javascript:void(0)">薇姿</a><a href="javascript:void(0)">佰草集</a><a href="javascript:void(0)">资生堂</a><a href="javascript:void(0)">DHC</a><a href="javascript:void(0)">阿迪达斯</a><a href="javascript:void(0)">美宝莲</a><a href="javascript:void(0)">雅芳</a><a href="javascript:void(0)">雅漾</a><a href="javascript:void(0)">可贝尔</a><a href="javascript:void(0)">YOUSOO</a><a href="javascript:void(0)">FEEL MIND</a><a href="javascript:void(0)">诗若漫</a><a href="javascript:void(0)">NH户外用品&nbsp;</a><a href="javascript:void(0)">若态</a><a href="javascript:void(0)">阀匠</a><a href="javascript:void(0)">3M</a><a href="javascript:void(0)">酷部落</a><a href="javascript:void(0)">艾米尼</a><a href="javascript:void(0)">迪思拜耳</a><a href="javascript:void(0)">天顺通</a><a href="javascript:void(0)">轰天炮</a></p>
-							</div>
-						</div>
-					</div>
 				</li>
-				<li><a href="javascript:void(0)">首页</a></li>
-				<li><a href="javascript:void(0)">化妆品</a></li>
-				<li><a href="productList.html">创意家居</a></li>
-				<li><a href="javascript:void(0)">数码宝贝儿</a></li>
-				<li><a href="javascript:void(0)">个性配饰</a></li>
-				<li><a href="javascript:void(0)">清仓专区</a></li>
+				<li>
+					<a href="javascript:void(0)">订单查询</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">积分换购</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">帮助中心</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">手机优尚</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">在线客服</a>
+				</li>
 			</ul>
 		</div>
-<!--*******************大图**************************-->
-		<div class="banner_active"></div>
-<!--*******************版心***********************-->
-<div class="active_container">
-	<!--<a href="javascript:void(0)"><img class="lazy" data-original="img/active/0.jpg" alt="" /></a>-->
-</div>
-		<!--********************各种信息****************************-->
-		<div class="message">
-			<div class="product">
-				<p class="p1"></p>
-				<p class="p2"></p>
-				<p class="p3"></p>
-				<p class="p4"></p>
-			</div>
-			<div class="information">
-				<ul>
-					<li class="bigSize">购物帮助</li>
-					<li><a href="javascript:void(0)">购物的基本问题</a></li>
-					<li><a href="javascript:void(0)">如何使用优惠券</a></li>
-					<li><a href="javascript:void(0)">如何累计并消费积分</a></li>
-					<li><a href="javascript:void(0)">第一次购物体验</a></li>
-				</ul>
-				<ul>
-					<li class="bigSize">支付方式</li>
-					<li><a href="javascript:void(0)">货到付款</a></li>
-					<li><a href="javascript:void(0)">银行电汇</a></li>
-					<li><a href="javascript:void(0)">网银支付</a></li>
-					<li><a href="javascript:void(0)">邮局付款</a></li>
-				</ul>
-				<ul>
-					<li class="bigSize">配送方式及费用</li>
-					<li class="red"><a href="javascript:void(0)">物流信息查询</a></li>
-					<li><a href="javascript:void(0)">配送范围</a></li>
-					<li><a href="javascript:void(0)">配送方式</a></li>
-					<li><a href="javascript:void(0)">运费说明</a></li>
-				</ul>
-				<ul>
-					<li class="bigSize">售后服务</li>
-					<li><a href="javascript:void(0)">D1品质保证原则</a></li>
-					<li><a href="javascript:void(0)">D1退货总原则</a></li>
-					<li><a href="javascript:void(0)">D1退换货及地址流程</a></li>
-					<li><a href="javascript:void(0)">D1退换货特殊说明</a></li>
-				</ul>
-				<ul>
-					<li class="bigSize">VIP特享政策</li>
-					<li><a href="javascript:void(0)">VIP会员的优惠及服务</a></li>
-					<li><a href="javascript:void(0)">如何获得和保持VIP</a></li>
-					<li><a href="javascript:void(0)">如何升级为白金VIP</a></li>
-					<li><a href="javascript:void(0)">白金VIP的优惠及服务</a></li>
-				</ul>
-				<p class="ewm"></p>
-			</div>
-		</div>
-		<!--bottom 底部-->
-		<div class="bottom">
-			<p class="p5">
-				<a class="noback" href="javascript:void(0)">联系我们</a>
-				<a href="javascript:void(0)">关于我们</a>
-				<a href="javascript:void(0)">配送范围</a>
-				<a href="javascript:void(0)">如何付款</a>
-				<a href="javascript:void(0)">品牌合作</a>
-				<a href="javascript:void(0)">友情链接</a>
-				<a href="javascript:void(0)">全珠创意购</a>
+	</div>
+	<!--*****************head改变*******************************-->
+	<div class="head head_change">
+		<div class="shead clear">
+			<p class="shead_left">您好，欢迎来到D1购物，请
+				<a href="logIn.html">登录</a>或
+				<a href="register.html">注册</a>
 			</p>
-			<p class="p6">
-				<a class="nomartop" href="javascript:void(0)"><img src="img/register/wei_349.gif"/></a>
-				<a href="javascript:void(0)"><img src="img/register/cx.png" /></a>
-				<a href="javascript:void(0)"><img src="img/register/ceca.gif" /></a>
-				<a href="javascript:void(0)"><img src="img/register/beca.gif" /></a>
-				<a href="javascript:void(0)"><img src="img/register/top100_logo.gif"/></a>
-				<a href="javascript:void(0)"><img src="img/register/redlogo.gif"/></a>
-			</p>
-			<p class="p7">京ICP证030072号  京公网安备：110108905029   www.D1.com.cn Copyright 2002-2016 D1优尚网 版权所有</p>
+			<ul class="shead_right">
+				<li class="right_li" id="right_li">
+					<a href="javascript:void(0)">我的账户
+						<img src="img/index/xsj.png" />
+					</a>
+					<ul class="right_li_box hide" id="right_li_box">
+						<li>
+							<a href="javascript:void(0)">我的订单</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">我的优惠券</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">我的积分</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">我的收藏</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">我的晒单</a>
+						</li>
+						<li>
+							<a href="javascript:void(0)">我的评论</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="javascript:void(0)">订单查询</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">积分换购</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">帮助中心</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">手机优尚</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">在线客服</a>
+				</li>
+			</ul>
 		</div>
-		<script type="text/javascript" src="js/require.js"></script>
+	</div>
+	<!--*******************logo**************************-->
+	<div class="logo clear">
+		<h2 class="logo_pic">
+			<a href="javascript:void(0)"></a>
+		</h2>
+		<div class="logo_link">
+			<div class="logo_search clear">
+				<input type="text" id="search" placeholder="请输入您要搜索的商品名称或编码" />
+				<button id="search-btn">搜索</button>
+				<ul class="logo_search_ul">
+				</ul>
+			</div>
+			<p class="logo_link_hot">
+				<i>热门搜索：</i>
+				<!--<a href="javascript:void(0)">魔兽</a><a href="javascript:void(0)">防晒</a><a href="javascript:void(0)">夏出游</a><a href="javascript:void(0)">度假风</a>-->
+			</p>
+		</div>
+		<span>
+			<img src="img/index/help.jpg" />
+		</span>
+		<!--*********************购物车************************-->
+		<a class="logo_cart" href="cart.html">查看购物车</a>
+	</div>
+	<!--********************导航****************************-->
+	<div class="nav">
+		<ul class="nav_ul">
+			<li class="nav_ul_diff">
+				<a class="diff_a" href="javascript:void(0)">全部商品</a>
+				<div class="nav_ul_div">
+					<div class="nav_ul_div_left">
+						<div class="nav_pro_list">
+							<h2>护肤品</h2>
+							<p>
+								<a href="javascript:void(0)">洁面</a>
+								<a href="javascript:void(0)">爽肤水</a>
+								<a href="javascript:void(0)">精华</a>
+								<a href="javascript:void(0)">乳液/面霜</a>
+								<a href="javascript:void(0)">眼霜</a>
+								<a href="javascript:void(0)">防晒隔离</a>
+								<a href="javascript:void(0)">唇部护理</a>
+								<a href="javascript:void(0)">面膜/面贴</a>
+								<a href="javascript:void(0)">黑头角质</a>
+								<a href="javascript:void(0)">护肤套装</a>
+								<a href="javascript:void(0)">卸妆</a>
+								<a href="javascript:void(0)">身体乳</a>
+								<a href="javascript:void(0)">美体塑身</a>
+								<a href="javascript:void(0)">脱毛</a>
+								<a href="javascript:void(0)">护手霜</a>
+								<a href="javascript:void(0)">男士护肤</a>
+							</p>
+						</div>
+						<div class="nav_pro_list">
+							<h2>彩妆香水</h2>
+							<p>
+								<a href="javascript:void(0)">隔离/妆前乳</a>
+								<a href="javascript:void(0)">BB霜</a>
+								<a href="javascript:void(0)">粉底</a>
+								<a href="javascript:void(0)">粉饼</a>
+								<a href="javascript:void(0)">睫毛膏</a>
+								<a href="javascript:void(0)">眼线</a>
+								<a href="javascript:void(0)">眉笔</a>
+								<a href="javascript:void(0)">眼影</a>
+								<a href="javascript:void(0)">口红/唇彩</a>
+								<a href="javascript:void(0)">彩妆套装</a>
+								<a href="javascript:void(0)">卸妆</a>
+								<a href="javascript:void(0)">美甲</a>
+								<a href="javascript:void(0)">遮瑕</a>
+								<a href="javascript:void(0)">腮红</a>
+								<a href="javascript:void(0)">彩妆工具</a>
+								<a href="javascript:void(0)">女士香水</a>
+								<a href="javascript:void(0)">男士香水</a>
+							</p>
+						</div>
+						<div class="nav_pro_list">
+							<h2>个性配饰</h2>
+							<p>
+								<a href="javascript:void(0)">项链</a>
+								<a href="javascript:void(0)">手链</a>
+								<a href="javascript:void(0)">耳饰</a>
+								<a href="javascript:void(0)">帽子</a>
+								<a href="javascript:void(0)">围巾</a>
+								<a href="javascript:void(0)">太阳眼镜</a>
+								<a href="javascript:void(0)">眼罩/口罩</a>
+								<a href="javascript:void(0)">袜子</a>
+								<a href="javascript:void(0)">手表</a>
+								<a href="javascript:void(0)">Zippo打火机</a>
+								<a href="javascript:void(0)">时尚女包</a>
+								<a href="javascript:void(0)">精品男包</a>
+								<a href="javascript:void(0)">12星座</a>
+								<a href="javascript:void(0)">925纯银</a>
+							</p>
+						</div>
+						<div class="nav_pro_list">
+							<h2>创意家居</h2>
+							<p>
+								<a href="javascript:void(0)">生活日用</a>
+								<a href="javascript:void(0)">生活小公具</a>
+								<a href="javascript:void(0)">创意收纳</a>
+								<a href="javascript:void(0)">厨具餐具</a>
+								<a href="javascript:void(0)">家纺布艺</a>
+								<a href="javascript:void(0)">家居装饰</a>
+								<a href="javascript:void(0)">防雾霾产品</a>
+								<a href="javascript:void(0)">家庭影院</a>
+								<a href="javascript:void(0)">营养早餐</a>
+								<a href="javascript:void(0)">宠物用品</a>
+							</p>
+						</div>
+						<div class="nav_pro_list">
+							<h2>数码宝贝</h2>
+							<p>
+								<a href="javascript:void(0)">创意数码</a>
+								<a href="javascript:void(0)">手机伴侣</a>
+								<a href="javascript:void(0)">蓝牙音箱耳机</a>
+								<a href="javascript:void(0)">家庭影院</a>
+								<a href="javascript:void(0)">创意插座</a>
+							</p>
+						</div>
+						<div class="nav_pro_list">
+							<h2>时尚热点</h2>
+							<p>
+								<a href="javascript:void(0)">自拍神器</a>
+								<a href="javascript:void(0)">创意数码</a>
+								<a href="javascript:void(0)">手机壳</a>
+								<a href="javascript:void(0)">清仓</a>
+								<a href="javascript:void(0)">太阳的后羿</a>
+								<a href="javascript:void(0)">收纳用品</a>
+								<a href="javascript:void(0)">投影电视</a>
+								<a href="javascript:void(0)">防雾霾</a>
+								<a href="javascript:void(0)">营养早餐</a>
+								<a href="javascript:void(0)">防晒</a>
+								<a href="javascript:void(0)">脱毛止汗</a>
+								<a href="javascript:void(0)">美白</a>
+								<a href="javascript:void(0)">控油</a>
+								<a href="javascript:void(0)">保湿补水</a>
+							</p>
+						</div>
+					</div>
+					<div class="nav_ul_div_right">
+						<div class="nav_pro_list">
+							<h2>热卖品牌</h2>
+							<p>
+								<a href="javascript:void(0)">兰蔻</a>
+								<a href="javascript:void(0)">玫琳凯</a>
+								<a href="javascript:void(0)">玉兰油</a>
+								<a href="javascript:void(0)">雅诗兰黛</a>
+								<a href="javascript:void(0)">倩碧</a>
+								<a href="javascript:void(0)">迪奥</a>
+								<a href="javascript:void(0)">碧欧泉</a>
+								<a href="javascript:void(0)">欧莱雅</a>
+								<a href="javascript:void(0)">兰芝</a>
+								<a href="javascript:void(0)">高丝</a>
+								<a href="javascript:void(0)">薇姿</a>
+								<a href="javascript:void(0)">佰草集</a>
+								<a href="javascript:void(0)">资生堂</a>
+								<a href="javascript:void(0)">DHC</a>
+								<a href="javascript:void(0)">阿迪达斯</a>
+								<a href="javascript:void(0)">美宝莲</a>
+								<a href="javascript:void(0)">雅芳</a>
+								<a href="javascript:void(0)">雅漾</a>
+								<a href="javascript:void(0)">可贝尔</a>
+								<a href="javascript:void(0)">YOUSOO</a>
+								<a href="javascript:void(0)">FEEL MIND</a>
+								<a href="javascript:void(0)">诗若漫</a>
+								<a href="javascript:void(0)">NH户外用品&nbsp;</a>
+								<a href="javascript:void(0)">若态</a>
+								<a href="javascript:void(0)">阀匠</a>
+								<a href="javascript:void(0)">3M</a>
+								<a href="javascript:void(0)">酷部落</a>
+								<a href="javascript:void(0)">艾米尼</a>
+								<a href="javascript:void(0)">迪思拜耳</a>
+								<a href="javascript:void(0)">天顺通</a>
+								<a href="javascript:void(0)">轰天炮</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<a href="javascript:void(0)">首页</a>
+			</li>
+			<li>
+				<a href="javascript:void(0)">化妆品</a>
+			</li>
+			<li>
+				<a href="productList.html">创意家居</a>
+			</li>
+			<li>
+				<a href="javascript:void(0)">数码宝贝儿</a>
+			</li>
+			<li>
+				<a href="javascript:void(0)">个性配饰</a>
+			</li>
+			<li>
+				<a href="javascript:void(0)">清仓专区</a>
+			</li>
+		</ul>
+	</div>
+	<!--*******************大图**************************-->
+	<div class="banner_active"></div>
+	<!--*******************版心***********************-->
+	<div class="active_container">
+		<!--<a href="javascript:void(0)"><img class="lazy" data-original="img/active/0.jpg" alt="" /></a>-->
+	</div>
+	<!--********************各种信息****************************-->
+	<div class="message">
+		<div class="product">
+			<p class="p1"></p>
+			<p class="p2"></p>
+			<p class="p3"></p>
+			<p class="p4"></p>
+		</div>
+		<div class="information">
+			<ul>
+				<li class="bigSize">购物帮助</li>
+				<li>
+					<a href="javascript:void(0)">购物的基本问题</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">如何使用优惠券</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">如何累计并消费积分</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">第一次购物体验</a>
+				</li>
+			</ul>
+			<ul>
+				<li class="bigSize">支付方式</li>
+				<li>
+					<a href="javascript:void(0)">货到付款</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">银行电汇</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">网银支付</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">邮局付款</a>
+				</li>
+			</ul>
+			<ul>
+				<li class="bigSize">配送方式及费用</li>
+				<li class="red">
+					<a href="javascript:void(0)">物流信息查询</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">配送范围</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">配送方式</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">运费说明</a>
+				</li>
+			</ul>
+			<ul>
+				<li class="bigSize">售后服务</li>
+				<li>
+					<a href="javascript:void(0)">D1品质保证原则</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">D1退货总原则</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">D1退换货及地址流程</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">D1退换货特殊说明</a>
+				</li>
+			</ul>
+			<ul>
+				<li class="bigSize">VIP特享政策</li>
+				<li>
+					<a href="javascript:void(0)">VIP会员的优惠及服务</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">如何获得和保持VIP</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">如何升级为白金VIP</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">白金VIP的优惠及服务</a>
+				</li>
+			</ul>
+			<p class="ewm"></p>
+		</div>
+	</div>
+	<!--bottom 底部-->
+	<div class="bottom">
+		<p class="p5">
+			<a class="noback" href="javascript:void(0)">联系我们</a>
+			<a href="javascript:void(0)">关于我们</a>
+			<a href="javascript:void(0)">配送范围</a>
+			<a href="javascript:void(0)">如何付款</a>
+			<a href="javascript:void(0)">品牌合作</a>
+			<a href="javascript:void(0)">友情链接</a>
+			<a href="javascript:void(0)">全珠创意购</a>
+		</p>
+		<p class="p6">
+			<a class="nomartop" href="javascript:void(0)">
+				<img src="img/register/wei_349.gif" />
+			</a>
+			<a href="javascript:void(0)">
+				<img src="img/register/cx.png" />
+			</a>
+			<a href="javascript:void(0)">
+				<img src="img/register/ceca.gif" />
+			</a>
+			<a href="javascript:void(0)">
+				<img src="img/register/beca.gif" />
+			</a>
+			<a href="javascript:void(0)">
+				<img src="img/register/top100_logo.gif" />
+			</a>
+			<a href="javascript:void(0)">
+				<img src="img/register/redlogo.gif" />
+			</a>
+		</p>
+		<p class="p7">京ICP证030072号 京公网安备：110108905029 www.D1.com.cn Copyright 2002-2016 D1优尚网 版权所有</p>
+	</div>
+	<script type="text/javascript" src="js/require.js"></script>
 
-		<script>
-			require(["./js/require.config"],function(){
-				require(["index"]);//index=>调用lazyLoad,index_productList
-				require(["active"]);
-			})
-		</script>
-	</body>
+	<script>
+		require(["./js/require.config"], function () {
+			require(["index"]); //index=>调用lazyLoad,index_productList
+			require(["active"]);
+		})
+	</script>
+</body>
+
 </html>

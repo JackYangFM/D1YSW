@@ -1,131 +1,130 @@
-[
-{
-"imgSrc":"http://localhost:8000/d1ysw/img/proinformation/hyimg.jpg",
-"name":"**学生桂晨曦",
-"style":"普通会员",
-"time":"2016-06-28",
-"info":"包装很好，女朋友很喜欢，很不错很有创意的小东西"
-},
-{
-"imgSrc":"http://localhost:8000/d1ysw/img/proinformation/hyimg.jpg",
-"name":"**zyidream ",
-"style":"普通会员",
-"time":"2016-06-27",
-"info":"镜头好美好好用 。再也不用像以前那些镜子那样还要找光线亮的地方了 。"
-},
-{
-"imgSrc":"http://localhost:8000/d1ysw/img/proinformation/hyimg.jpg",
-"name":"**zyidream ",
-"style":"普通会员",
-"time":"2016-06-27",
-"info":"这个灯确实不错，我把它当我的小夜灯使用，最主要的还可以给我省电啊，哈哈哈。LED暖光不刺眼棒棒的！很美哦。。质量很好，五星好评！"
-},
-{
-"imgSrc":"http://localhost:8000/d1ysw/img/proinformation/bjimg.jpg",
-"name":"xps213@163 ",
-"style":"白金会员",
-"time":"2016-06-26",
-"info":"颜色好柔和，灯光不刺眼，化妆不担心涂抹不均匀了。"
-},
-{
-"imgSrc":"http://localhost:8000/d1ysw/img/proinformation/hyimg.jpg",
-"name":"**zyidream ",
-"style":"普通会员",
-"time":"2016-06-27",
-"info":"很漂亮的颜色，触摸开关很灵敏，灯光强弱也可以调，很值得推荐"
-},
+[{
+        "imgSrc": "http://localhost:8000/d1ysw/img/proinformation/hyimg.jpg",
+        "name": "**学生桂晨曦",
+        "style": "普通会员",
+        "time": "2016-06-28",
+        "info": "包装很好，女朋友很喜欢，很不错很有创意的小东西"
+    },
+    {
+        "imgSrc": "http://localhost:8000/d1ysw/img/proinformation/hyimg.jpg",
+        "name": "**zyidream ",
+        "style": "普通会员",
+        "time": "2016-06-27",
+        "info": "镜头好美好好用 。再也不用像以前那些镜子那样还要找光线亮的地方了 。"
+    },
+    {
+        "imgSrc": "http://localhost:8000/d1ysw/img/proinformation/hyimg.jpg",
+        "name": "**zyidream ",
+        "style": "普通会员",
+        "time": "2016-06-27",
+        "info": "这个灯确实不错，我把它当我的小夜灯使用，最主要的还可以给我省电啊，哈哈哈。LED暖光不刺眼棒棒的！很美哦。。质量很好，五星好评！"
+    },
+    {
+        "imgSrc": "http://localhost:8000/d1ysw/img/proinformation/bjimg.jpg",
+        "name": "xps213@163 ",
+        "style": "白金会员",
+        "time": "2016-06-26",
+        "info": "颜色好柔和，灯光不刺眼，化妆不担心涂抹不均匀了。"
+    },
+    {
+        "imgSrc": "http://localhost:8000/d1ysw/img/proinformation/hyimg.jpg",
+        "name": "**zyidream ",
+        "style": "普通会员",
+        "time": "2016-06-27",
+        "info": "很漂亮的颜色，触摸开关很灵敏，灯光强弱也可以调，很值得推荐"
+    },
 
-{
-"imgSrc":"http://localhost:8000/d1ysw/img/proinformation/vipimg.jpg",
-"name":"sun",
-"style":"VIP会员",
-"time":"2016-06-08",
-"info":"宝贝美哭我了！薄荷绿太美了！！开始还以为要一直插着点，问了客服才知道原来是充电的，光很温和，太漂亮了！！"
-},
-{
-"imgSrc":"http://localhost:8000/d1ysw/img/proinformation/hyimg.jpg",
-"name":"**学生桂晨曦",
-"style":"普通会员",
-"time":"2016-06-28",
-"info":"包装很好，女朋友很喜欢，很不错很有创意的小东西"
-},
-{
-"imgSrc":"http://localhost:8000/d1ysw/img/proinformation/hyimg.jpg",
-"name":"**zyidream ",
-"style":"普通会员",
-"time":"2016-06-27",
-"info":"镜头好美好好用 。再也不用像以前那些镜子那样还要找光线亮的地方了 。"
-},
-{
-"imgSrc":"http://localhost:8000/d1ysw/img/proinformation/hyimg.jpg",
-"name":"**zyidream ",
-"style":"普通会员",
-"time":"2016-06-27",
-"info":"这个灯确实不错，我把它当我的小夜灯使用，最主要的还可以给我省电啊，哈哈哈。LED暖光不刺眼棒棒的！很美哦。。质量很好，五星好评！"
-},
-{
-"imgSrc":"http://localhost:8000/d1ysw/img/proinformation/bjimg.jpg",
-"name":"xps213@163 ",
-"style":"白金会员",
-"time":"2016-06-26",
-"info":"颜色好柔和，灯光不刺眼，化妆不担心涂抹不均匀了。"
-},
-{
-"imgSrc":"http://localhost:8000/d1ysw/img/proinformation/hyimg.jpg",
-"name":"**zyidream ",
-"style":"普通会员",
-"time":"2016-06-27",
-"info":"很漂亮的颜色，触摸开关很灵敏，灯光强弱也可以调，很值得推荐"
-},
+    {
+        "imgSrc": "http://localhost:8000/d1ysw/img/proinformation/vipimg.jpg",
+        "name": "sun",
+        "style": "VIP会员",
+        "time": "2016-06-08",
+        "info": "宝贝美哭我了！薄荷绿太美了！！开始还以为要一直插着点，问了客服才知道原来是充电的，光很温和，太漂亮了！！"
+    },
+    {
+        "imgSrc": "http://localhost:8000/d1ysw/img/proinformation/hyimg.jpg",
+        "name": "**学生桂晨曦",
+        "style": "普通会员",
+        "time": "2016-06-28",
+        "info": "包装很好，女朋友很喜欢，很不错很有创意的小东西"
+    },
+    {
+        "imgSrc": "http://localhost:8000/d1ysw/img/proinformation/hyimg.jpg",
+        "name": "**zyidream ",
+        "style": "普通会员",
+        "time": "2016-06-27",
+        "info": "镜头好美好好用 。再也不用像以前那些镜子那样还要找光线亮的地方了 。"
+    },
+    {
+        "imgSrc": "http://localhost:8000/d1ysw/img/proinformation/hyimg.jpg",
+        "name": "**zyidream ",
+        "style": "普通会员",
+        "time": "2016-06-27",
+        "info": "这个灯确实不错，我把它当我的小夜灯使用，最主要的还可以给我省电啊，哈哈哈。LED暖光不刺眼棒棒的！很美哦。。质量很好，五星好评！"
+    },
+    {
+        "imgSrc": "http://localhost:8000/d1ysw/img/proinformation/bjimg.jpg",
+        "name": "xps213@163 ",
+        "style": "白金会员",
+        "time": "2016-06-26",
+        "info": "颜色好柔和，灯光不刺眼，化妆不担心涂抹不均匀了。"
+    },
+    {
+        "imgSrc": "http://localhost:8000/d1ysw/img/proinformation/hyimg.jpg",
+        "name": "**zyidream ",
+        "style": "普通会员",
+        "time": "2016-06-27",
+        "info": "很漂亮的颜色，触摸开关很灵敏，灯光强弱也可以调，很值得推荐"
+    },
 
-{
-"imgSrc":"http://localhost:8000/d1ysw/img/proinformation/vipimg.jpg",
-"name":"sun",
-"style":"VIP会员",
-"time":"2016-06-08",
-"info":"宝贝美哭我了！薄荷绿太美了！！开始还以为要一直插着点，问了客服才知道原来是充电的，光很温和，太漂亮了！！"
-},
-{
-"imgSrc":"http://localhost:8000/d1ysw/img/proinformation/hyimg.jpg",
-"name":"**学生桂晨曦",
-"style":"普通会员",
-"time":"2016-06-28",
-"info":"包装很好，女朋友很喜欢，很不错很有创意的小东西"
-},
-{
-"imgSrc":"http://localhost:8000/d1ysw/img/proinformation/hyimg.jpg",
-"name":"**zyidream ",
-"style":"普通会员",
-"time":"2016-06-27",
-"info":"镜头好美好好用 。再也不用像以前那些镜子那样还要找光线亮的地方了 。"
-},
-{
-"imgSrc":"http://localhost:8000/d1ysw/img/proinformation/hyimg.jpg",
-"name":"**zyidream ",
-"style":"普通会员",
-"time":"2016-06-27",
-"info":"这个灯确实不错，我把它当我的小夜灯使用，最主要的还可以给我省电啊，哈哈哈。LED暖光不刺眼棒棒的！很美哦。。质量很好，五星好评！"
-},
-{
-"imgSrc":"http://localhost:8000/d1ysw/img/proinformation/bjimg.jpg",
-"name":"xps213@163 ",
-"style":"白金会员",
-"time":"2016-06-26",
-"info":"颜色好柔和，灯光不刺眼，化妆不担心涂抹不均匀了。"
-},
-{
-"imgSrc":"http://localhost:8000/d1ysw/img/proinformation/hyimg.jpg",
-"name":"**zyidream ",
-"style":"普通会员",
-"time":"2016-06-27",
-"info":"很漂亮的颜色，触摸开关很灵敏，灯光强弱也可以调，很值得推荐"
-},
+    {
+        "imgSrc": "http://localhost:8000/d1ysw/img/proinformation/vipimg.jpg",
+        "name": "sun",
+        "style": "VIP会员",
+        "time": "2016-06-08",
+        "info": "宝贝美哭我了！薄荷绿太美了！！开始还以为要一直插着点，问了客服才知道原来是充电的，光很温和，太漂亮了！！"
+    },
+    {
+        "imgSrc": "http://localhost:8000/d1ysw/img/proinformation/hyimg.jpg",
+        "name": "**学生桂晨曦",
+        "style": "普通会员",
+        "time": "2016-06-28",
+        "info": "包装很好，女朋友很喜欢，很不错很有创意的小东西"
+    },
+    {
+        "imgSrc": "http://localhost:8000/d1ysw/img/proinformation/hyimg.jpg",
+        "name": "**zyidream ",
+        "style": "普通会员",
+        "time": "2016-06-27",
+        "info": "镜头好美好好用 。再也不用像以前那些镜子那样还要找光线亮的地方了 。"
+    },
+    {
+        "imgSrc": "http://localhost:8000/d1ysw/img/proinformation/hyimg.jpg",
+        "name": "**zyidream ",
+        "style": "普通会员",
+        "time": "2016-06-27",
+        "info": "这个灯确实不错，我把它当我的小夜灯使用，最主要的还可以给我省电啊，哈哈哈。LED暖光不刺眼棒棒的！很美哦。。质量很好，五星好评！"
+    },
+    {
+        "imgSrc": "http://localhost:8000/d1ysw/img/proinformation/bjimg.jpg",
+        "name": "xps213@163 ",
+        "style": "白金会员",
+        "time": "2016-06-26",
+        "info": "颜色好柔和，灯光不刺眼，化妆不担心涂抹不均匀了。"
+    },
+    {
+        "imgSrc": "http://localhost:8000/d1ysw/img/proinformation/hyimg.jpg",
+        "name": "**zyidream ",
+        "style": "普通会员",
+        "time": "2016-06-27",
+        "info": "很漂亮的颜色，触摸开关很灵敏，灯光强弱也可以调，很值得推荐"
+    },
 
-{
-"imgSrc":"http://localhost:8000/d1ysw/img/proinformation/vipimg.jpg",
-"name":"sun",
-"style":"VIP会员",
-"time":"2016-06-08",
-"info":"宝贝美哭我了！薄荷绿太美了！！开始还以为要一直插着点，问了客服才知道原来是充电的，光很温和，太漂亮了！！"
-}
+    {
+        "imgSrc": "http://localhost:8000/d1ysw/img/proinformation/vipimg.jpg",
+        "name": "sun",
+        "style": "VIP会员",
+        "time": "2016-06-08",
+        "info": "宝贝美哭我了！薄荷绿太美了！！开始还以为要一直插着点，问了客服才知道原来是充电的，光很温和，太漂亮了！！"
+    }
 ]

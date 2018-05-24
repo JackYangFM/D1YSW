@@ -93,7 +93,6 @@ define(["jqueryPlugin"], function () {
                     alert(res);
                 })
         }
-
         window.location.href = "http://localhost:8000/d1ysw-require/logIn.html";
     })
 })

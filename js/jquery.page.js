@@ -113,7 +113,7 @@
 			var args = $.extend({
 				pageCount: 10,
 				current: 1,
-				backFn: function () { }
+				backFn: function () {}
 			}, options);
 			ms.init(this, args);
 		}
