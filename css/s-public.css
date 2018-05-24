@@ -1,0 +1,129 @@
+body,
+ul,
+li,
+dl,
+dt,
+dd,
+p,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+img,
+table,
+fieldset,
+legend {
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+img,
+fieldset {
+    border: 0;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 100;
+}
+
+body {
+    font-size: 12px;
+    font-family: "宋体";
+}
+
+input,
+a {
+    outline: none;
+}
+
+/*------------------head头部----------------*/
+
+.head {
+    width: 1015px;
+    padding-left: 35px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.head h2 {
+    float: left;
+    padding-top: 13px;
+}
+
+.head h2 a {
+    display: block;
+    width: 170px;
+    height: 63px;
+    background: url(../img/register/index_iconnew.png) no-repeat -215px -145px;
+}
+
+.head span {
+    display: block;
+    float: left;
+    font-family: "仿宋";
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 52px;
+}
+
+.head span a {
+    color: #bebebe;
+}
+
+.head p {
+    padding: 21px 0 0 85px;
+    float: left;
+    color: #4b4b4b;
+}
+
+.head p a {
+    padding: 0 9px;
+    color: #8cc341;
+}
+
+.head ul {
+    float: right;
+    padding-top: 21px;
+}
+
+.head li {
+    float: left;
+    padding: 0 9px 0 8px;
+    background: url(../img/register/headbg.jpg) no-repeat right center;
+}
+
+.head li a {
+    color: #4b4b4b;
+}
+
+.head .nobg {
+    background: none;
+}

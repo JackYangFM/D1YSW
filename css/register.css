@@ -1,0 +1,178 @@
+body,
+ul,
+li,
+dl,
+dt,
+dd,
+p,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+img,
+table,
+fieldset,
+legend {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+img,
+fieldset {
+    border: 0;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 100;
+}
+
+body {
+    font-size: 12px;
+    font-family: "宋体";
+}
+
+input,
+a {
+    outline: none;
+}
+
+/*---------------------typeArea 版心----------------------*/
+
+.typeArea {
+    width: 1050px;
+    margin: 0 auto;
+    padding-top: 52px;
+}
+
+.typeArea .register {
+    width: 758px;
+    height: 540px;
+    margin: 0 auto 26px;
+    background: url(../img/register/zc_06.jpg) repeat-y;
+}
+
+.typeArea .register .typeTop {
+    width: 100%;
+    height: 76px;
+    background: url(../img/register/zc_03-2.jpg) no-repeat left top;
+}
+
+.register .typeTop .account {
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    float: left;
+    margin: 25px 0 0 519px;
+}
+
+.register .typeTop .logIn {
+    display: block;
+    width: 128px;
+    height: 38px;
+    float: left;
+    margin: 14px 0 0 19px;
+    background: url(../img/register/reglogin.png) no-repeat;
+}
+
+.register h3 {
+    padding: 28px 0 34px 9px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #d1436b;
+}
+
+.register .register-box {
+    padding-left: 70px;
+    font-size: 14px;
+    margin: 24px 0;
+}
+
+.register input {
+    width: 220px;
+    height: 22px;
+    background-color: #f4f4f4;
+    border: 1px solid #ababab;
+}
+
+.register .short {
+    width: 118px;
+}
+
+.register .gender {
+    width: 12px;
+    height: 14px;
+}
+
+.register-box .box button {
+    width: 88px;
+    height: 30px;
+    color: #808080;
+    font-size: 12px;
+    border-color: #ABABAB;
+}
+
+.register .typeBottom {
+    background: url(../img/register/zc_08.jpg) no-repeat;
+    width: 758px;
+    height: 33px;
+}
+
+.register .btn2 {
+    width: 120px;
+    height: 35px;
+    background-color: #791268;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 46px 0 27px 320px;
+}
+
+.register .register-box span {
+    display: none;
+    padding: 10px 0 0 95px;
+    font-size: 12px;
+}
+
+.register .register-box .box i {
+    display: inline-block;
+    width: 17px;
+    height: 21px;
+    vertical-align: middle;
+    background: none;
+}
+
+/*错误的时候i*/
+
+.register .register-box .box.error i {
+    background: url(../img/register/no.gif) no-repeat;
+}
+
+/*正确的时候i变成对号*/
+
+.register .register-box .box.default i {
+    background: url(../img/register/suc.jpg) no-repeat;
+}

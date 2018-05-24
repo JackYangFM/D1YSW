@@ -7,9 +7,6 @@
 		<link rel="stylesheet" href="css/index-productList.css" />
 		<link rel="stylesheet" href="css/productList.css" />
 		<link rel="stylesheet" href="css/pagination.css" />
-		<script type="text/javascript" src="js/jquery-1.11.0.js" ></script>
-		<script type="text/javascript" src="js/jquery.lazyload.min.js" ></script>
-		<script type="text/javascript" src="js/jquery.page.js" ></script>
 	</head>
 	<body>
 			<!--****************************头部******************************-->
@@ -264,7 +261,13 @@
 			</p>
 			<p class="p7">京ICP证030072号  京公网安备：110108905029   www.D1.com.cn Copyright 2002-2016 D1优尚网 版权所有</p>
 		</div>
-		<script src="js/index-productList.js"></script>
-		<script type="text/javascript" src="js/productList.js" ></script>
+		<script type="text/javascript" src="js/require.js"></script>
+
+		<script>
+			require(["./js/require.config"],function(){
+				require(["index"]);//index=>调用 pagePlugIn,lazyLoad,index_productList
+				require(["productList"]);
+			})
+		</script>
 	</body>
 </html>

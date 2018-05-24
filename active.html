@@ -6,8 +6,6 @@
 		<link rel="stylesheet" href="css/index-productList.css" />
 		<link rel="stylesheet" href="css/public.css" />
 		<link rel="stylesheet" href="css/active.css" />
-		<script type="text/javascript" src="js/jquery-1.11.0.js" ></script>
-		<script type="text/javascript" src="js/jquery.lazyload.min.js" ></script>
 		
 	</head>
 	<body>
@@ -196,7 +194,13 @@
 			</p>
 			<p class="p7">京ICP证030072号  京公网安备：110108905029   www.D1.com.cn Copyright 2002-2016 D1优尚网 版权所有</p>
 		</div>
-		<script type="text/javascript" src="js/index-productList.js" ></script>
-		<script type="text/javascript" src="js/active.js" ></script>
+		<script type="text/javascript" src="js/require.js"></script>
+
+		<script>
+			require(["./js/require.config"],function(){
+				require(["index"]);//index=>调用lazyLoad,index_productList
+				require(["active"]);
+			})
+		</script>
 	</body>
 </html>

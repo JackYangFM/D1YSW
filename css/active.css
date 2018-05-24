@@ -1,4 +1,18 @@
-.banner_active{height: 520px; width: 100%; background: url(../img/active/a_banner.jpg) center center;}
-.active_container{ background: #249dd2; width: 100%; padding-bottom: 44px; margin-bottom: 20px;}
-.active_container a{margin: 0 auto; display: block; width: 980px;}
-body{}
+.banner_active {
+    height: 520px;
+    width: 100%;
+    background: url(../img/active/a_banner.jpg) center center;
+}
+
+.active_container {
+    background: #249dd2;
+    width: 100%;
+    padding-bottom: 44px;
+    margin-bottom: 20px;
+}
+
+.active_container a {
+    margin: 0 auto;
+    display: block;
+    width: 980px;
+}

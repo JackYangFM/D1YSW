@@ -7,8 +7,6 @@
 		<link rel="stylesheet" href="css/index-productList.css" />
 		<link rel="stylesheet" href="css/pagination.css" />
 		<link rel="stylesheet" href="css/proInformation.css" />
-		<script type="text/javascript" src="js/jquery-1.11.0.js" ></script>
-		<script type="text/javascript" src="js/jquery.page.js" ></script>
 	</head>
 	<body>
 			<!--****************************头部******************************-->
@@ -365,7 +363,13 @@
 			<p><i></i>您好！请选择规格！</p>
 			<a class="yes" href="javascript:void(0)">确定</a>
 		</div>
-		<script src="js/index-productList.js"></script>
-		<script type="text/javascript" src="js/proinformation.js" ></script>
+		<script type="text/javascript" src="js/require.js"></script>
+
+		<script>
+			require(["./js/require.config"],function(){
+				require(["index"]);//index=>调用 pagePlugIn,index_productList
+				require(["proInfo"]);
+			})
+		</script>
 	</body>
 </html>

@@ -1,0 +1,290 @@
+/*------------------------类别概括栏----------------------------*/
+
+.classify {
+    width: 990px;
+    height: 36px;
+    border: 1px solid #e2e2e2;
+    margin: 0 auto;
+    line-height: 36px;
+    margin-bottom: 10px;
+}
+
+.classify .classify_diff {
+    display: block;
+    width: 77px;
+    height: 34px;
+    border: 1px solid #fff;
+    background: url(../img/productList/downj.png) no-repeat 70px center;
+}
+
+.classify .classify_position {
+    position: relative;
+    height: 34px;
+    float: right;
+    margin-right: 809px;
+}
+
+/*a的背景图发生变化*/
+
+.classify .classify_diff.active {
+    border: 1px solid #cc0033;
+    background-image: url(../img/productList/upj.png);
+}
+
+.classify a {
+    padding: 0 2px;
+}
+
+.classify a:hover {
+    color: #aa2e44;
+}
+
+/*隐藏块*/
+
+.classify .classify_div {
+    position: absolute;
+    left: 0;
+    top: 36px;
+    z-index: 99;
+    width: 360px;
+    height: 70px;
+    border: 1px solid #cc0033;
+    padding-left: 10px;
+    display: none;
+    background: #fff;
+}
+
+.classify .classify_div a {
+    padding: 0;
+    display: block;
+    float: left;
+    width: 120px;
+    color: #4b4b4b
+}
+
+.classify .classify_div a:hover {
+    color: #aa2e44;
+}
+
+/*------------------------类别详细 栏----------------------------*/
+
+.kinds {
+    width: 978px;
+    margin: 0 auto 10px;
+    border: 1px solid #cccccc;
+}
+
+.kinds .kinds_div {
+    width: 100%;
+    border-bottom: 1px solid #e2e2e2;
+    overflow: hidden;
+    line-height: 30px;
+    padding: 5px 0;
+}
+
+.kinds .kinds_div span {
+    display: block;
+    width: 86px;
+    text-align: center;
+    color: #999999;
+    border-right: 1px solid #e2e2e2;
+    float: left;
+}
+
+.kinds .kinds_div .kinds_sdiv {
+    padding-left: 5px;
+    float: left;
+    width: 858px;
+}
+
+.kinds .kinds_div .kinds_sdiv a {
+    display: block;
+    float: left;
+    color: #666666;
+    margin-right: 16px;
+}
+
+.kinds .kinds_div .kinds_sdiv a:hover {
+    color: #e4393c;
+}
+
+/*------------------------类别详细 栏----------------------------*/
+
+.sort {
+    width: 978px;
+    height: 35px;
+    margin: 0 auto 10px;
+    border: 1px solid #cccccc;
+    border-top: 2px solid #575757;
+}
+
+.sort .sort_kind {
+    display: block;
+    float: left;
+    height: 35px;
+    line-height: 34px;
+    padding: 0 30px;
+    border-right: 1px solid #cccccc;
+    background: url(../img/productList/gray-down.png) no-repeat 56px center;
+}
+
+.sort .sort_kind:hover {
+    background-image: url(../img/productList/red-down.png);
+    color: #be1622;
+}
+
+.sort .sort_kind.active {
+    background-image: url(../img/productList/red-down.png);
+    color: #be1622;
+}
+
+.sort .active_diff {
+    background-image: url(../img/productList/gary-pricebg.png);
+}
+
+.sort .active_diff:hover {
+    background-image: url(../img/productList/red-pricebg.png);
+}
+
+.sort .active_diff.active {
+    background-image: url(../img/productList/red-pricebg.png);
+}
+
+.sort span {
+    display: block;
+    padding-top: 10px;
+    float: left;
+}
+
+.sort input {
+    height: 13px;
+    vertical-align: text-top;
+    margin: 0 5px 0 10px;
+}
+
+/*------------------------商品列表----------------------------*/
+
+.pro_list {
+    width: 978px;
+    margin: 0 auto;
+    font-family: "微软雅黑";
+    padding-left: 10px;
+    overflow: hidden;
+}
+
+.pro_list dl {
+    width: 234px;
+    height: 384px;
+    border: 1px solid #fff;
+    float: left;
+}
+
+.pro_list dl.active {
+    border-color: #c51520;
+}
+
+.pro_list dl dt {
+    padding: 10px 0;
+}
+
+.pro_list dl dt img {
+    margin: 0 auto;
+}
+
+.pro_list dl dd {
+    padding: 0 18px 0 11px
+}
+
+.pro_list dl dd div {
+    overflow: hidden;
+    padding-top: 5px;
+}
+
+.pro_list dl dd .no_link span {
+    display: block;
+    float: left;
+}
+
+.pro_list dl dd .no_link .red_price {
+    color: #c51520;
+}
+
+.pro_list dl dd .no_link .red_price b {
+    font-size: 18px;
+    padding: 0 12px 0 10px;
+}
+
+.pro_list dl dd .no_link .gray_price {
+    color: #4b4b4b
+}
+
+.pro_list dl dd .no_link .gray_price del {
+    display: inline-block;
+    padding: 9px 8px 0 0;
+}
+
+.pro_list dl dd .no_link .fast {
+    width: 87px;
+    height: 24px;
+    background: url(../img/productList/listsf.jpg) no-repeat left top;
+}
+
+.pro_list dl dd .explain {
+    display: block;
+    line-height: 24px;
+    height: 48px;
+}
+
+.pro_list dl dd .explain:hover i {
+    color: #aa2e44;
+}
+
+.pro_list dl dd .explain i {
+    color: #4b4b4b;
+}
+
+.pro_list dl dd .explain span {
+    color: #c51520;
+}
+
+.pro_list dl dd .comment {
+    display: block;
+    height: 14px;
+    padding: 0 0 5px 16px;
+    background: url(../img/productList/criticsicon.gif) no-repeat left top;
+    line-height: 14px;
+    color: #4b4b4b;
+}
+
+.pro_list dl dd .count {
+    width: 43px;
+    height: 28px;
+    border: 1px solid #cccccc;
+    float: left;
+}
+
+.pro_list dl dd p {
+    width: 18px;
+    height: 31px;
+    float: left;
+    padding: 0 12px;
+}
+
+.pro_list dl dd p a {
+    display: block;
+    height: 15px;
+    width: 18px;
+    background: url(../img/productList/amountarrow-up.gif) no-repeat center center;
+}
+
+.pro_list dl dd p .cut_down {
+    background-image: url(../img/productList/amountarrow-down.gif);
+}
+
+.pro_list dl dd .add_cart {
+    display: block;
+    width: 108px;
+    height: 26px;
+    background: url(../img/productList/addcart.jpg) no-repeat;
+    float: left;
+}

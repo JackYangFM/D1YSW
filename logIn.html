@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+	<link rel="stylesheet" href="css/public.css" />
+	<link rel="stylesheet" href="css/s-public.css" />
+	<link rel="stylesheet" href="css/login.css" />
+</head>
+
+<body>
+	<!--head 头部-->
+	<div class="head">
+		<h2>
+			<a href="javascript:void(0)"></a>
+		</h2>
+		<span>
+			<a href="javascript:void(0)">享受优尚生活</a>
+		</span>
+		<p>你好，欢迎来到D1购物，请
+			<a href="logIn.html">登录</a>或
+			<a href="register.html">注册</a>
+		</p>
+		<ul>
+			<li>
+				<a href="javascript:void(0)">我的帐户</a>
+			</li>
+			<li>
+				<a href="javascript:void(0)">订单查询</a>
+			</li>
+			<li>
+				<a href="javascript:void(0)">我的优惠券</a>
+			</li>
+			<li>
+				<a href="javascript:void(0)">积分换购</a>
+			</li>
+			<li class="nobg">
+				<a href="javascript:void(0)">帮助中心</a>
+			</li>
+		</ul>
+	</div>
+	<!--***************版心*********************-->
+	<div class="typeArea">
+		<a class="picleft">
+			<img src="img/logIn/wxsc0630.jpg" />
+		</a>
+		<!--****************表单部分*********************-->
+		<div class="form">
+			<!--****************用户名*********************-->
+			<div class="box">
+				<label>手机号码</label>
+				<input type="text" id="userName" placeholder="请输入手机号" />
+				<span>手机号格式错误</span>
+			</div>
+
+			<!--****************密码*********************-->
+			<div class="box">
+				<label>登录密码</label>
+				<input type="password" id="pwd" placeholder="请输入密码" />
+				<span>请填写长度为6-20字符的密码，字母不区分大小写</span>
+			</div>
+
+			<!--****************验证码*********************-->
+			<div class="box">
+				<label>验证码&nbsp;</label>
+				<input type="text" id="testWord" class="textWord" disabled placeholder="8363" />
+				<a id="testPic" class="testPic" href="javascript:void(0)">
+					<img src="img/logIn/0.jpg" />
+				</a>
+				<i>看不清，
+					<a id="changePic" href="javascript:void(0)">换一张</a>
+				</i>
+				<span>请输入验证码</span>
+			</div>
+
+			<!--****************登录按钮*********************-->
+			<div class="box-log">
+				<a class="logPic" id="logPic">
+					<img src="img/logIn/login_new.gif" />
+				</a>
+				<!-- <input class="diff" type="checkbox" id="check"/>
+					<b>记住用户名</b> -->
+			</div>
+			<!--****************链接部分*********************-->
+			<!-- <div class="link">
+					<h2>合作商账户登录：</h2>
+					<a href="javascript:void(0)"><img src="img/logIn/qq.jpg"/><span>QQ</span>|</a>
+					<a href="javascript:void(0)">&nbsp;<img src="img/logIn/xl.jpg"/><span>新浪微博</span>|</a>
+					<a href="javascript:void(0)">&nbsp;<img src="img/logIn/sh.jpg"/><span>搜狐微博</span>|</a>
+					<a href="javascript:void(0)">&nbsp;<img src="img/logIn/zfb.jpg"/></a>
+					<a href="javascript:void(0)"><img src="img/logIn/cft.jpg"/>&nbsp;|</a>
+					<a href="javascript:void(0)">&nbsp;<img src="img/logIn/139.jpg"/><span>139邮箱</span></a>
+				</div> -->
+			<p class="typeLink">还不是D1优尚会员？</p>
+			<p>立即注册成为D1优尚会员，便能享受便宜又放心的购物乐趣！</p>
+			<a class="messLink" href="javascript:void(0)">如果您不想错过诱人的促销活动通知，请点击此处</a>
+		</div>
+
+
+	</div>
+	<!--message 各种信息-->
+	<div class="message">
+		<div class="product">
+			<p class="p1"></p>
+			<p class="p2"></p>
+			<p class="p3"></p>
+			<p class="p4"></p>
+		</div>
+		<div class="information">
+			<ul>
+				<li class="bigSize">购物帮助</li>
+				<li>
+					<a href="javascript:void(0)">购物的基本问题</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">如何使用优惠券</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">如何累计并消费积分</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">第一次购物体验</a>
+				</li>
+			</ul>
+			<ul>
+				<li class="bigSize">支付方式</li>
+				<li>
+					<a href="javascript:void(0)">货到付款</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">银行电汇</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">网银支付</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">邮局付款</a>
+				</li>
+			</ul>
+			<ul>
+				<li class="bigSize">配送方式及费用</li>
+				<li class="red">
+					<a href="javascript:void(0)">物流信息查询</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">配送范围</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">配送方式</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">运费说明</a>
+				</li>
+			</ul>
+			<ul>
+				<li class="bigSize">售后服务</li>
+				<li>
+					<a href="javascript:void(0)">D1品质保证原则</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">D1退货总原则</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">D1退换货及地址流程</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">D1退换货特殊说明</a>
+				</li>
+			</ul>
+			<ul>
+				<li class="bigSize">VIP特享政策</li>
+				<li>
+					<a href="javascript:void(0)">VIP会员的优惠及服务</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">如何获得和保持VIP</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">如何升级为白金VIP</a>
+				</li>
+				<li>
+					<a href="javascript:void(0)">白金VIP的优惠及服务</a>
+				</li>
+			</ul>
+			<p class="ewm"></p>
+		</div>
+	</div>
+	<!--bottom 底部-->
+	<div class="bottom">
+		<p class="p5">
+			<a class="noback" href="javascript:void(0)">联系我们</a>
+			<a href="javascript:void(0)">关于我们</a>
+			<a href="javascript:void(0)">配送范围</a>
+			<a href="javascript:void(0)">如何付款</a>
+			<a href="javascript:void(0)">品牌合作</a>
+			<a href="javascript:void(0)">友情链接</a>
+			<a href="javascript:void(0)">全珠创意购</a>
+		</p>
+		<p class="p6">
+			<a class="nomartop" href="javascript:void(0)">
+				<img src="img/register/wei_349.gif" />
+			</a>
+			<a href="javascript:void(0)">
+				<img src="img/register/cx.png" />
+			</a>
+			<a href="javascript:void(0)">
+				<img src="img/register/ceca.gif" />
+			</a>
+			<a href="javascript:void(0)">
+				<img src="img/register/beca.gif" />
+			</a>
+			<a href="javascript:void(0)">
+				<img src="img/register/top100_logo.gif" />
+			</a>
+			<a href="javascript:void(0)">
+				<img src="img/register/redlogo.gif" />
+			</a>
+		</p>
+		<p class="p7">京ICP证030072号 京公网安备：110108905029 www.D1.com.cn Copyright 2002-2016 D1优尚网 版权所有</p>
+	</div>
+	<script type="text/javascript" src="js/require.js"></script>
+
+	<script>
+		require(["./js/require.config"], function () {
+			require(["logIn"]);
+		})
+	</script>
+</body>
+
+</html>

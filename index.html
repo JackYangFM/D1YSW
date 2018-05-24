@@ -6,8 +6,6 @@
 		<link rel="stylesheet" href="css/public.css" />
 		<link rel="stylesheet" href="css/index.css" />
 		<link rel="stylesheet" href="css/index-productList.css" />
-		<script type="text/javascript" src="js/jquery-1.11.0.js" ></script>
-		<script type="text/javascript" src="js/jquery.lazyload.min.js"></script>
 	</head>
 	<body>
 		<!--********************定位条********************************-->
@@ -139,17 +137,15 @@
 		</div>
 		<!--********************banner图****************************-->
 			<div class="banner_box">
-				<a class="banner" href="javascript:void(0)"><img src="img/index/banner1.jpg"/></a>
+				<!--<a class="banner" href="javascript:void(0)"><img src="img/index/banner1.jpg"/></a>-->
 					
 					<div class="control_position">
 						<ul class="banner_nav">
-						<li><a href="javascript:void(0)">1</a></li>
+						<!--<li><a href="javascript:void(0)">1</a></li>-->
 						</ul>
 						<div class="banner_right"></div>
 						<div class="banner_left"></div>
-					</div>
-					
-				
+					</div>			
 			</div>
 		
 		<!--********************container****************************-->
@@ -157,74 +153,51 @@
 				<div class="create_topic Louti">
 					<h2 class="topic_title"></h2>
 					<div class="big_box clear">
-						<dl class="topic_box">
-							<dt><a href="javascript:void(0)"><img src="img/index/topic1.jpg"/></a><div class="topic_position"></div></dt>
-							<dd><a href="javascript:void(0)">3D立体墙贴专场</a></dd>
-						</dl>
+						<!-- <dl class="topic_box">
+								<dt>
+									<a href="javascript:void(0)"><img src="img/index/topic1.jpg"/></a>
+									<div class="topic_position"></div>
+								</dt>
+								<dd>
+									<a href="javascript:void(0)">3D立体墙贴专场</a>
+								</dd>
+						</dl> -->
 					</div>
 				</div>
 				<div class="container_box Louti">
 					<h2 class="container_title"></h2>
 					<div class="container_sbox">
-						<dl>
+						<!--<dl>
 							<dt><img class="lazy" data-original="img/index/container1.jpg" alt="" /><div class="container_position"></div></dt>
 							<dd>
 								<a class="change_color" href="javascript:void(0)">airware隐形口罩鼻塞</a>
 								<a class="change_hide" href="javascript:void(0)">会员价：<span>¥49</span></a>
 							</dd>
-						</dl>
+						</dl>-->
 						
 					</div>
 				</div>
 				<div class="container_box Louti">
 					<h2 class="living_title"></h2>
 					<div class="container_sbox">
-						<dl>
-							<dt><img class="lazy" data-original="img/index/container1.jpg" alt="" /><div class="container_position"></div></dt>
-							<dd>
-								<a class="change_color" href="javascript:void(0)">airware隐形口罩鼻塞</a>
-								<a class="change_hide" href="javascript:void(0)">会员价：<span>¥49</span></a>
-							</dd>
-						</dl>	
 						
 					</div>
 				</div>
 				<div class="container_box Louti">
 					<h2 class="digtal_title"></h2>
 					<div class="container_sbox">
-						<dl>
-							<dt><img class="lazy" data-original="img/index/container1.jpg" alt="" /><div class="container_position"></div></dt>
-							<dd>
-								<a class="change_color" href="javascript:void(0)">airware隐形口罩鼻塞</a>
-								<a class="change_hide" href="javascript:void(0)">会员价：<span>¥49</span></a>
-							</dd>
-						</dl>
 						
 					</div>
 				</div>
 				<div class="container_box Louti">
 					<h2 class="makeup_title"></h2>
 					<div class="container_sbox">
-						<dl>
-							<dt><img class="lazy" data-original="img/index/container1.jpg" alt="" /><div class="container_position"></div></dt>
-							<dd>
-								<a class="change_color" href="javascript:void(0)">airware隐形口罩鼻塞</a>
-								<a class="change_hide" href="javascript:void(0)">会员价：<span>¥49</span></a>
-							</dd>
-						</dl>
 						
 					</div>
 				</div>
 				<div class="container_box Louti">
 					<h2 class="ornament_title"></h2>
 					<div class="container_sbox">
-						<dl>
-							<dt><img class="lazy" data-original="img/index/container1.jpg" alt="" /><div class="container_position"></div></dt>
-							<dd>
-								<a class="change_color" href="javascript:void(0)">airware隐形口罩鼻塞</a>
-								<a class="change_hide" href="javascript:void(0)">会员价：<span>¥49</span></a>
-							</dd>
-						</dl>
 						
 					</div>
 				</div>
@@ -297,7 +270,15 @@
 			</p>
 			<p class="p7">京ICP证030072号  京公网安备：110108905029   www.D1.com.cn Copyright 2002-2016 D1优尚网 版权所有</p>
 		</div>
-		<script src="js/index-productList.js"></script>
-		<script type="text/javascript" src="js/index.js" ></script>
+
+		<script type="text/javascript" src="js/require.js"></script>
+		<script>
+			require(["./js/require.config"],function(){
+				//index => 访问的是model文件夹下面的index.js 文件
+				require(["index"]);//index=>调用lazyLoad,index_productList
+				require(["indexJs"]);
+			})
+		</script>
+
 	</body>
 </html>
