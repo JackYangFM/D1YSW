@@ -329,10 +329,10 @@ em {
 .tip_div {
     width: 362px;
     height: 195px;
-    position: absolute;
+    position: fixed;
     background: #fff;
     left: 50%;
-    top: 50%;
+    top: 40%;
     margin: -80px 0 0 -181px;
     z-index: 91;
     display: none;

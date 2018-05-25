@@ -1,23 +1,5 @@
 define(["jqueryPlugin"], function () {
-
-	var liIndex = 0;
-	var phone = localStorage["phone"];
-	if (phone) { //如果不为undefined，说已经注册成功！
-		$(".head_change").removeClass("active"); //active display:blcok;  默认方式   登录注册localStorage
-		$(".head_nochange").addClass("active");
-		$("#phone_number").text(phone);
-		moveBox($(".head_nochange"))
-	} else {
-		$(".head_change").addClass("active"); //active display:blcok;  默认方式   登录注册localStorage
-		$(".head_nochange").removeClass("active");
-		moveBox($(".head_change"))
-	}
-	$("#quit").click(function () {
-		//localStorage.removeItem("phone");
-		$(".head_change").addClass("active"); //active display:blcok;  默认方式   登录注册localStorage
-		$(".head_nochange").removeClass("active");
-		moveBox($(".head_change"))
-	})
+	
 	/*-----------------上面的滑入滑出块------------------------*/
 	function moveBox(obj) {
 		$(obj).find(".right_li").mouseenter(function () {

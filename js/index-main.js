@@ -234,7 +234,6 @@ define(["jqueryPlugin"], function () {
 		$(".position_ul li").click(function () {
 			if (flag) {
 				flag = false;
-
 				$(this).addClass("active").siblings().removeClass("active")
 				//获取当前li索引
 				var index = $(this).index();

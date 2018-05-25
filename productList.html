@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title></title>
+	<title>产品列表</title>
 	<link rel="stylesheet" href="css/public.css" />
 	<link rel="stylesheet" href="css/index-productList.css" />
 	<link rel="stylesheet" href="css/productList.css" />
@@ -514,8 +514,7 @@
 
 	<script>
 		require(["./js/require.config"], function () {
-			require(["index"]); //index=>调用 pagePlugIn,lazyLoad,index_productList
-			require(["productList"]);
+			require(["index","productList"]); //index=>调用 pagePlugIn,lazyLoad,index_productList
 		})
 	</script>
 </body>
